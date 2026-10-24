@@ -1,0 +1,62 @@
+{
+ "cgan_epoch": 25,
+ "classifier": "baseline_cnn_s0.pt",
+ "per_class": {
+  "basophil": {
+   "fidelity": 0.678,
+   "most_common_wrong": "erythroblast",
+   "fd_fake_vs_test": 1072.531612595858,
+   "fd_train_vs_test": 18.603847231887105
+  },
+  "eosinophil": {
+   "fidelity": 0.892,
+   "most_common_wrong": "erythroblast",
+   "fd_fake_vs_test": 1300.4557607247655,
+   "fd_train_vs_test": 9.103037108830113
+  },
+  "erythroblast": {
+   "fidelity": 0.888,
+   "most_common_wrong": "basophil",
+   "fd_fake_vs_test": 614.8722213064207,
+   "fd_train_vs_test": 19.73137923860749
+  },
+  "immature_granulocyte": {
+   "fidelity": 0.062,
+   "most_common_wrong": "erythroblast",
+   "fd_fake_vs_test": 1513.7150060430868,
+   "fd_train_vs_test": 11.299811678317003
+  },
+  "lymphocyte": {
+   "fidelity": 0.232,
+   "most_common_wrong": "erythroblast",
+   "fd_fake_vs_test": 1598.4165841173156,
+   "fd_train_vs_test": 18.431010471144297
+  },
+  "monocyte": {
+   "fidelity": 0.192,
+   "most_common_wrong": "erythroblast",
+   "fd_fake_vs_test": 1305.2579296798035,
+   "fd_train_vs_test": 22.31333063897868
+  },
+  "neutrophil": {
+   "fidelity": 0.682,
+   "most_common_wrong": "erythroblast",
+   "fd_fake_vs_test": 684.9749161287111,
+   "fd_train_vs_test": 6.778875648583569
+  },
+  "platelet": {
+   "fidelity": 0.978,
+   "most_common_wrong": "erythroblast",
+   "fd_fake_vs_test": 500.04435829790896,
+   "fd_train_vs_test": 5.617224264036264
+  }
+ },
+ "mean_fidelity": 0.5755,
+ "mean_fd_fake": 1073.7835486117337,
+ "mean_fd_real": 13.984814535048065,
+ "synthetic_added": {
+  "lymphocyte": 1151,
+  "basophil": 1148,
+  "monocyte": 1007
+ }
+}

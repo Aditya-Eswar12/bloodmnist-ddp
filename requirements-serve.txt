@@ -1,0 +1,9 @@
+# Runtime dependencies of the inference service (pinned to the versions tested).
+# torch is installed separately from the CPU wheel index in the Dockerfile.
+fastapi==0.143.0
+uvicorn==0.54.0
+python-multipart
+pillow==12.3.0
+numpy==2.5.2
+scikit-learn
+anthropic==1.13.0

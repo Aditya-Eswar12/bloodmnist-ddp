@@ -1,0 +1,29 @@
+{
+  "dev_dataset1": {
+    "n": 300,
+    "dice_nucleus": 0.8668155406025687,
+    "dice_cytoplasm": 0.30177291164329023,
+    "dice_cell": 0.6627384916989091,
+    "patch_agreement": 0.82171875,
+    "dice_nucleus_median": 0.9103032480145468,
+    "dice_cytoplasm_median": 0.15984273747431643
+  },
+  "dev_dataset2_1to50": {
+    "n": 50,
+    "dice_nucleus": 0.9503235374847704,
+    "dice_cytoplasm": 0.8333324908308285,
+    "dice_cell": 0.9298636326583889,
+    "patch_agreement": 0.9578125,
+    "dice_nucleus_median": 0.9704196599153657,
+    "dice_cytoplasm_median": 0.9139408978118655
+  },
+  "test_dataset2_51to100": {
+    "n": 50,
+    "dice_nucleus": 0.9502344224348953,
+    "dice_cytoplasm": 0.6544498402706591,
+    "dice_cell": 0.8047577933655551,
+    "patch_agreement": 0.8609375,
+    "dice_nucleus_median": 0.9652882378242291,
+    "dice_cytoplasm_median": 0.6876055791970903
+  }
+}

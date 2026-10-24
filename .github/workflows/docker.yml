@@ -1,0 +1,22 @@
+# Builds the inference image and runs the API tests inside it on every push.
+# Runs on GitHub Actions on every push.
+name: docker
+on: [push, workflow_dispatch]
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build image
+        run: docker build -t bloodcell-api .
+      - name: Start container (untrained model; no checkpoint in the repo)
+        run: |
+          docker run -d --name api -p 8000:8000 bloodcell-api
+          for i in $(seq 1 30); do curl -sf http://127.0.0.1:8000/health && break; sleep 2; done
+      - name: Smoke test the endpoint
+        run: |
+          pip install pillow && python3 -c "from PIL import Image; Image.new('RGB',(64,64),(200,150,200)).save('cell.png')"
+          curl -sf -F "file=@cell.png" http://127.0.0.1:8000/predict
+      - name: Container logs
+        if: always()
+        run: docker logs api

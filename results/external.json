@@ -1,0 +1,4842 @@
+{
+ "baseline_cnn_s0": {
+  "raw": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.08666666666666667,
+    "macro_recall": 0.21509433962264152,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 1.0,
+     "lymphocyte": 0.07547169811320754,
+     "monocyte": 0.0,
+     "neutrophil": 0.0
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 6,
+     "eosinophil": 184,
+     "erythroblast": 104,
+     "immature_granulocyte": 1,
+     "lymphocyte": 5,
+     "monocyte": 0,
+     "neutrophil": 0,
+     "platelet": 0
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.21,
+    "macro_recall": 0.21945126945126944,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.75,
+     "lymphocyte": 0.13513513513513514,
+     "monocyte": 0.0,
+     "neutrophil": 0.21212121212121213
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 0,
+     "eosinophil": 37,
+     "erythroblast": 17,
+     "immature_granulocyte": 3,
+     "lymphocyte": 17,
+     "monocyte": 1,
+     "neutrophil": 8,
+     "platelet": 17
+    }
+   }
+  },
+  "scale": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.03666666666666667,
+    "macro_recall": 0.08975843339050886,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.4090909090909091,
+     "lymphocyte": 0.018867924528301886,
+     "monocyte": 0.020833333333333332,
+     "neutrophil": 0.0
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 104,
+     "eosinophil": 136,
+     "erythroblast": 41,
+     "immature_granulocyte": 15,
+     "lymphocyte": 3,
+     "monocyte": 1,
+     "neutrophil": 0,
+     "platelet": 0
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.46,
+    "macro_recall": 0.41972153972153964,
+    "recall": {
+     "basophil": 0.3333333333333333,
+     "eosinophil": 0.6666666666666666,
+     "lymphocyte": 0.4864864864864865,
+     "monocyte": 0.06666666666666667,
+     "neutrophil": 0.5454545454545454
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 2,
+     "eosinophil": 19,
+     "erythroblast": 4,
+     "immature_granulocyte": 15,
+     "lymphocyte": 29,
+     "monocyte": 6,
+     "neutrophil": 20,
+     "platelet": 5
+    }
+   }
+  },
+  "stain": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.2866666666666667,
+    "macro_recall": 0.354352487135506,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.8636363636363636,
+     "lymphocyte": 0.7547169811320755,
+     "monocyte": 0.0,
+     "neutrophil": 0.1534090909090909
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 2,
+     "eosinophil": 136,
+     "erythroblast": 25,
+     "immature_granulocyte": 0,
+     "lymphocyte": 99,
+     "monocyte": 2,
+     "neutrophil": 28,
+     "platelet": 8
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.26,
+    "macro_recall": 0.30733005733005736,
+    "recall": {
+     "basophil": 0.6666666666666666,
+     "eosinophil": 0.25,
+     "lymphocyte": 0.13513513513513514,
+     "monocyte": 0.0,
+     "neutrophil": 0.48484848484848486
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 4,
+     "eosinophil": 15,
+     "erythroblast": 41,
+     "immature_granulocyte": 2,
+     "lymphocyte": 9,
+     "monocyte": 0,
+     "neutrophil": 21,
+     "platelet": 8
+    }
+   }
+  },
+  "scale+stain": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.19333333333333333,
+    "macro_recall": 0.2933104631217839,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.6363636363636364,
+     "lymphocyte": 0.8301886792452831,
+     "monocyte": 0.0,
+     "neutrophil": 0.0
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 0,
+     "eosinophil": 106,
+     "erythroblast": 54,
+     "immature_granulocyte": 0,
+     "lymphocyte": 74,
+     "monocyte": 0,
+     "neutrophil": 0,
+     "platelet": 66
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.39,
+    "macro_recall": 0.3699099099099099,
+    "recall": {
+     "basophil": 0.3333333333333333,
+     "eosinophil": 0.5,
+     "lymphocyte": 0.21621621621621623,
+     "monocyte": 0.13333333333333333,
+     "neutrophil": 0.6666666666666666
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 2,
+     "eosinophil": 7,
+     "erythroblast": 10,
+     "immature_granulocyte": 15,
+     "lymphocyte": 13,
+     "monocyte": 7,
+     "neutrophil": 24,
+     "platelet": 22
+    }
+   }
+  }
+ },
+ "baseline_cnn_s1": {
+  "raw": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.06666666666666667,
+    "macro_recall": 0.1765008576329331,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.8636363636363636,
+     "lymphocyte": 0.018867924528301886,
+     "monocyte": 0.0,
+     "neutrophil": 0.0
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 12,
+     "eosinophil": 180,
+     "erythroblast": 105,
+     "immature_granulocyte": 0,
+     "lymphocyte": 3,
+     "monocyte": 0,
+     "neutrophil": 0,
+     "platelet": 0
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.26,
+    "macro_recall": 0.3242506142506142,
+    "recall": {
+     "basophil": 0.3333333333333333,
+     "eosinophil": 0.75,
+     "lymphocyte": 0.16216216216216217,
+     "monocyte": 0.13333333333333333,
+     "neutrophil": 0.24242424242424243
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 1,
+     "eosinophil": 31,
+     "erythroblast": 24,
+     "immature_granulocyte": 3,
+     "lymphocyte": 18,
+     "monocyte": 3,
+     "neutrophil": 9,
+     "platelet": 11
+    }
+   }
+  },
+  "scale": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.02666666666666667,
+    "macro_recall": 0.07272727272727272,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.36363636363636365,
+     "lymphocyte": 0.0,
+     "monocyte": 0.0,
+     "neutrophil": 0.0
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 148,
+     "eosinophil": 112,
+     "erythroblast": 36,
+     "immature_granulocyte": 1,
+     "lymphocyte": 3,
+     "monocyte": 0,
+     "neutrophil": 0,
+     "platelet": 0
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.51,
+    "macro_recall": 0.491031941031941,
+    "recall": {
+     "basophil": 0.3333333333333333,
+     "eosinophil": 0.75,
+     "lymphocyte": 0.43243243243243246,
+     "monocyte": 0.3333333333333333,
+     "neutrophil": 0.6060606060606061
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 4,
+     "eosinophil": 15,
+     "erythroblast": 6,
+     "immature_granulocyte": 13,
+     "lymphocyte": 24,
+     "monocyte": 13,
+     "neutrophil": 22,
+     "platelet": 3
+    }
+   }
+  },
+  "stain": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.17333333333333334,
+    "macro_recall": 0.24438250428816471,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.7272727272727273,
+     "lymphocyte": 0.41509433962264153,
+     "monocyte": 0.0,
+     "neutrophil": 0.07954545454545454
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 1,
+     "eosinophil": 104,
+     "erythroblast": 118,
+     "immature_granulocyte": 0,
+     "lymphocyte": 60,
+     "monocyte": 0,
+     "neutrophil": 14,
+     "platelet": 3
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.18,
+    "macro_recall": 0.19954954954954954,
+    "recall": {
+     "basophil": 0.3333333333333333,
+     "eosinophil": 0.25,
+     "lymphocyte": 0.08108108108108109,
+     "monocyte": 0.0,
+     "neutrophil": 0.3333333333333333
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 2,
+     "eosinophil": 17,
+     "erythroblast": 46,
+     "immature_granulocyte": 4,
+     "lymphocyte": 9,
+     "monocyte": 1,
+     "neutrophil": 12,
+     "platelet": 9
+    }
+   }
+  },
+  "scale+stain": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.15333333333333332,
+    "macro_recall": 0.24578330474556886,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.6363636363636364,
+     "lymphocyte": 0.5660377358490566,
+     "monocyte": 0.020833333333333332,
+     "neutrophil": 0.005681818181818182
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 0,
+     "eosinophil": 66,
+     "erythroblast": 120,
+     "immature_granulocyte": 0,
+     "lymphocyte": 51,
+     "monocyte": 1,
+     "neutrophil": 1,
+     "platelet": 61
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.33,
+    "macro_recall": 0.31828828828828826,
+    "recall": {
+     "basophil": 0.3333333333333333,
+     "eosinophil": 0.4166666666666667,
+     "lymphocyte": 0.10810810810810811,
+     "monocyte": 0.06666666666666667,
+     "neutrophil": 0.6666666666666666
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 2,
+     "eosinophil": 6,
+     "erythroblast": 17,
+     "immature_granulocyte": 15,
+     "lymphocyte": 8,
+     "monocyte": 13,
+     "neutrophil": 24,
+     "platelet": 15
+    }
+   }
+  }
+ },
+ "baseline_cnn_s2": {
+  "raw": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.07333333333333333,
+    "macro_recall": 0.2,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 1.0,
+     "lymphocyte": 0.0,
+     "monocyte": 0.0,
+     "neutrophil": 0.0
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 38,
+     "eosinophil": 186,
+     "erythroblast": 64,
+     "immature_granulocyte": 0,
+     "lymphocyte": 12,
+     "monocyte": 0,
+     "neutrophil": 0,
+     "platelet": 0
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.25,
+    "macro_recall": 0.31753480753480756,
+    "recall": {
+     "basophil": 0.3333333333333333,
+     "eosinophil": 0.75,
+     "lymphocyte": 0.1891891891891892,
+     "monocyte": 0.13333333333333333,
+     "neutrophil": 0.18181818181818182
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 1,
+     "eosinophil": 35,
+     "erythroblast": 18,
+     "immature_granulocyte": 5,
+     "lymphocyte": 19,
+     "monocyte": 3,
+     "neutrophil": 7,
+     "platelet": 12
+    }
+   }
+  },
+  "scale": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.03333333333333333,
+    "macro_recall": 0.09090909090909091,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.45454545454545453,
+     "lymphocyte": 0.0,
+     "monocyte": 0.0,
+     "neutrophil": 0.0
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 163,
+     "eosinophil": 104,
+     "erythroblast": 26,
+     "immature_granulocyte": 1,
+     "lymphocyte": 6,
+     "monocyte": 0,
+     "neutrophil": 0,
+     "platelet": 0
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.48,
+    "macro_recall": 0.4741605241605241,
+    "recall": {
+     "basophil": 0.3333333333333333,
+     "eosinophil": 0.75,
+     "lymphocyte": 0.3783783783783784,
+     "monocyte": 0.3333333333333333,
+     "neutrophil": 0.5757575757575758
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 2,
+     "eosinophil": 17,
+     "erythroblast": 4,
+     "immature_granulocyte": 14,
+     "lymphocyte": 22,
+     "monocyte": 14,
+     "neutrophil": 22,
+     "platelet": 5
+    }
+   }
+  },
+  "stain": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.17666666666666667,
+    "macro_recall": 0.2776014865637507,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.7727272727272727,
+     "lymphocyte": 0.5660377358490566,
+     "monocyte": 0.020833333333333332,
+     "neutrophil": 0.028409090909090908
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 1,
+     "eosinophil": 151,
+     "erythroblast": 51,
+     "immature_granulocyte": 0,
+     "lymphocyte": 84,
+     "monocyte": 2,
+     "neutrophil": 5,
+     "platelet": 6
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.14,
+    "macro_recall": 0.11404586404586406,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.25,
+     "lymphocyte": 0.10810810810810811,
+     "monocyte": 0.0,
+     "neutrophil": 0.21212121212121213
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 4,
+     "eosinophil": 14,
+     "erythroblast": 47,
+     "immature_granulocyte": 1,
+     "lymphocyte": 10,
+     "monocyte": 1,
+     "neutrophil": 12,
+     "platelet": 11
+    }
+   }
+  },
+  "scale+stain": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.11666666666666667,
+    "macro_recall": 0.21301457975986277,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.6818181818181818,
+     "lymphocyte": 0.32075471698113206,
+     "monocyte": 0.0625,
+     "neutrophil": 0.0
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 0,
+     "eosinophil": 102,
+     "erythroblast": 149,
+     "immature_granulocyte": 0,
+     "lymphocyte": 29,
+     "monocyte": 3,
+     "neutrophil": 0,
+     "platelet": 17
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.39,
+    "macro_recall": 0.30799344799344797,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.5,
+     "lymphocyte": 0.2702702702702703,
+     "monocyte": 0.13333333333333333,
+     "neutrophil": 0.6363636363636364
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 2,
+     "eosinophil": 7,
+     "erythroblast": 9,
+     "immature_granulocyte": 4,
+     "lymphocyte": 15,
+     "monocyte": 19,
+     "neutrophil": 25,
+     "platelet": 19
+    }
+   }
+  }
+ },
+ "baseline_cnn_strongaug_s0": {
+  "raw": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.18,
+    "macro_recall": 0.32075471698113206,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 1.0,
+     "lymphocyte": 0.6037735849056604,
+     "monocyte": 0.0,
+     "neutrophil": 0.0
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 0,
+     "eosinophil": 216,
+     "erythroblast": 17,
+     "immature_granulocyte": 0,
+     "lymphocyte": 65,
+     "monocyte": 0,
+     "neutrophil": 0,
+     "platelet": 2
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.34,
+    "macro_recall": 0.4687960687960688,
+    "recall": {
+     "basophil": 1.0,
+     "eosinophil": 0.6666666666666666,
+     "lymphocyte": 0.16216216216216217,
+     "monocyte": 0.0,
+     "neutrophil": 0.5151515151515151
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 3,
+     "eosinophil": 25,
+     "erythroblast": 1,
+     "immature_granulocyte": 4,
+     "lymphocyte": 10,
+     "monocyte": 1,
+     "neutrophil": 20,
+     "platelet": 36
+    }
+   }
+  },
+  "scale": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.08666666666666667,
+    "macro_recall": 0.20445969125214408,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.9090909090909091,
+     "lymphocyte": 0.11320754716981132,
+     "monocyte": 0.0,
+     "neutrophil": 0.0
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 1,
+     "eosinophil": 266,
+     "erythroblast": 5,
+     "immature_granulocyte": 9,
+     "lymphocyte": 16,
+     "monocyte": 3,
+     "neutrophil": 0,
+     "platelet": 0
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.43,
+    "macro_recall": 0.5557657657657658,
+    "recall": {
+     "basophil": 1.0,
+     "eosinophil": 0.75,
+     "lymphocyte": 0.16216216216216217,
+     "monocyte": 0.2,
+     "neutrophil": 0.6666666666666666
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 6,
+     "eosinophil": 15,
+     "erythroblast": 2,
+     "immature_granulocyte": 23,
+     "lymphocyte": 9,
+     "monocyte": 10,
+     "neutrophil": 24,
+     "platelet": 11
+    }
+   }
+  },
+  "stain": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.3,
+    "macro_recall": 0.3694039451114923,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.8181818181818182,
+     "lymphocyte": 0.8867924528301887,
+     "monocyte": 0.0,
+     "neutrophil": 0.14204545454545456
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 6,
+     "eosinophil": 135,
+     "erythroblast": 3,
+     "immature_granulocyte": 0,
+     "lymphocyte": 129,
+     "monocyte": 0,
+     "neutrophil": 25,
+     "platelet": 2
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.36,
+    "macro_recall": 0.44308763308763305,
+    "recall": {
+     "basophil": 1.0,
+     "eosinophil": 0.25,
+     "lymphocyte": 0.13513513513513514,
+     "monocyte": 0.13333333333333333,
+     "neutrophil": 0.696969696969697
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 10,
+     "eosinophil": 13,
+     "erythroblast": 13,
+     "immature_granulocyte": 7,
+     "lymphocyte": 8,
+     "monocyte": 2,
+     "neutrophil": 33,
+     "platelet": 14
+    }
+   }
+  },
+  "scale+stain": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.20333333333333334,
+    "macro_recall": 0.27351343624928537,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.36363636363636365,
+     "lymphocyte": 0.9622641509433962,
+     "monocyte": 0.041666666666666664,
+     "neutrophil": 0.0
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 0,
+     "eosinophil": 27,
+     "erythroblast": 21,
+     "immature_granulocyte": 0,
+     "lymphocyte": 113,
+     "monocyte": 2,
+     "neutrophil": 0,
+     "platelet": 137
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.39,
+    "macro_recall": 0.4705651105651105,
+    "recall": {
+     "basophil": 1.0,
+     "eosinophil": 0.3333333333333333,
+     "lymphocyte": 0.1891891891891892,
+     "monocyte": 0.13333333333333333,
+     "neutrophil": 0.696969696969697
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 8,
+     "eosinophil": 4,
+     "erythroblast": 1,
+     "immature_granulocyte": 20,
+     "lymphocyte": 10,
+     "monocyte": 8,
+     "neutrophil": 29,
+     "platelet": 20
+    }
+   }
+  }
+ },
+ "baseline_cnn_strongaug_s1": {
+  "raw": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.13666666666666666,
+    "macro_recall": 0.27169811320754716,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 1.0,
+     "lymphocyte": 0.3584905660377358,
+     "monocyte": 0.0,
+     "neutrophil": 0.0
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 1,
+     "eosinophil": 247,
+     "erythroblast": 26,
+     "immature_granulocyte": 0,
+     "lymphocyte": 26,
+     "monocyte": 0,
+     "neutrophil": 0,
+     "platelet": 0
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.51,
+    "macro_recall": 0.6538493038493038,
+    "recall": {
+     "basophil": 1.0,
+     "eosinophil": 0.75,
+     "lymphocyte": 0.21621621621621623,
+     "monocyte": 0.6666666666666666,
+     "neutrophil": 0.6363636363636364
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 5,
+     "eosinophil": 28,
+     "erythroblast": 5,
+     "immature_granulocyte": 4,
+     "lymphocyte": 12,
+     "monocyte": 11,
+     "neutrophil": 23,
+     "platelet": 12
+    }
+   }
+  },
+  "scale": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.09666666666666666,
+    "macro_recall": 0.2157804459691252,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.9090909090909091,
+     "lymphocyte": 0.16981132075471697,
+     "monocyte": 0.0,
+     "neutrophil": 0.0
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 9,
+     "eosinophil": 251,
+     "erythroblast": 13,
+     "immature_granulocyte": 6,
+     "lymphocyte": 21,
+     "monocyte": 0,
+     "neutrophil": 0,
+     "platelet": 0
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.51,
+    "macro_recall": 0.6590990990990991,
+    "recall": {
+     "basophil": 1.0,
+     "eosinophil": 0.6666666666666666,
+     "lymphocyte": 0.16216216216216217,
+     "monocyte": 0.8,
+     "neutrophil": 0.6666666666666666
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 9,
+     "eosinophil": 12,
+     "erythroblast": 1,
+     "immature_granulocyte": 13,
+     "lymphocyte": 9,
+     "monocyte": 29,
+     "neutrophil": 24,
+     "platelet": 3
+    }
+   }
+  },
+  "stain": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.30333333333333334,
+    "macro_recall": 0.39408233276157806,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.9090909090909091,
+     "lymphocyte": 0.8113207547169812,
+     "monocyte": 0.125,
+     "neutrophil": 0.125
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 43,
+     "eosinophil": 113,
+     "erythroblast": 10,
+     "immature_granulocyte": 0,
+     "lymphocyte": 102,
+     "monocyte": 9,
+     "neutrophil": 22,
+     "platelet": 1
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.27,
+    "macro_recall": 0.37066339066339066,
+    "recall": {
+     "basophil": 1.0,
+     "eosinophil": 0.16666666666666666,
+     "lymphocyte": 0.13513513513513514,
+     "monocyte": 0.06666666666666667,
+     "neutrophil": 0.48484848484848486
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 23,
+     "eosinophil": 5,
+     "erythroblast": 23,
+     "immature_granulocyte": 9,
+     "lymphocyte": 9,
+     "monocyte": 3,
+     "neutrophil": 21,
+     "platelet": 7
+    }
+   }
+  },
+  "scale+stain": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.17666666666666667,
+    "macro_recall": 0.23326901086335047,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.22727272727272727,
+     "lymphocyte": 0.5849056603773585,
+     "monocyte": 0.3541666666666667,
+     "neutrophil": 0.0
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 0,
+     "eosinophil": 53,
+     "erythroblast": 92,
+     "immature_granulocyte": 0,
+     "lymphocyte": 56,
+     "monocyte": 42,
+     "neutrophil": 0,
+     "platelet": 57
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.34,
+    "macro_recall": 0.4461670761670762,
+    "recall": {
+     "basophil": 1.0,
+     "eosinophil": 0.25,
+     "lymphocyte": 0.10810810810810811,
+     "monocyte": 0.26666666666666666,
+     "neutrophil": 0.6060606060606061
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 15,
+     "eosinophil": 3,
+     "erythroblast": 5,
+     "immature_granulocyte": 13,
+     "lymphocyte": 6,
+     "monocyte": 17,
+     "neutrophil": 22,
+     "platelet": 19
+    }
+   }
+  }
+ },
+ "baseline_cnn_strongaug_s2": {
+  "raw": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.13,
+    "macro_recall": 0.2562392795883362,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 1.0,
+     "lymphocyte": 0.2641509433962264,
+     "monocyte": 0.0,
+     "neutrophil": 0.017045454545454544
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 1,
+     "eosinophil": 256,
+     "erythroblast": 14,
+     "immature_granulocyte": 0,
+     "lymphocyte": 26,
+     "monocyte": 0,
+     "neutrophil": 3,
+     "platelet": 0
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.41,
+    "macro_recall": 0.42375102375102375,
+    "recall": {
+     "basophil": 0.3333333333333333,
+     "eosinophil": 0.6666666666666666,
+     "lymphocyte": 0.2702702702702703,
+     "monocyte": 0.3333333333333333,
+     "neutrophil": 0.5151515151515151
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 3,
+     "eosinophil": 27,
+     "erythroblast": 1,
+     "immature_granulocyte": 6,
+     "lymphocyte": 15,
+     "monocyte": 6,
+     "neutrophil": 20,
+     "platelet": 22
+    }
+   }
+  },
+  "scale": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.08,
+    "macro_recall": 0.1862778730703259,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.8181818181818182,
+     "lymphocyte": 0.11320754716981132,
+     "monocyte": 0.0,
+     "neutrophil": 0.0
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 2,
+     "eosinophil": 228,
+     "erythroblast": 20,
+     "immature_granulocyte": 20,
+     "lymphocyte": 16,
+     "monocyte": 14,
+     "neutrophil": 0,
+     "platelet": 0
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.46,
+    "macro_recall": 0.4665765765765766,
+    "recall": {
+     "basophil": 0.3333333333333333,
+     "eosinophil": 0.5833333333333334,
+     "lymphocyte": 0.21621621621621623,
+     "monocyte": 0.5333333333333333,
+     "neutrophil": 0.6666666666666666
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 6,
+     "eosinophil": 10,
+     "erythroblast": 0,
+     "immature_granulocyte": 17,
+     "lymphocyte": 11,
+     "monocyte": 27,
+     "neutrophil": 25,
+     "platelet": 4
+    }
+   }
+  },
+  "stain": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.23333333333333334,
+    "macro_recall": 0.35234419668381933,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.8181818181818182,
+     "lymphocyte": 0.9056603773584906,
+     "monocyte": 0.020833333333333332,
+     "neutrophil": 0.017045454545454544
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 5,
+     "eosinophil": 165,
+     "erythroblast": 0,
+     "immature_granulocyte": 2,
+     "lymphocyte": 120,
+     "monocyte": 5,
+     "neutrophil": 3,
+     "platelet": 0
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.42,
+    "macro_recall": 0.4705651105651105,
+    "recall": {
+     "basophil": 0.6666666666666666,
+     "eosinophil": 0.6666666666666666,
+     "lymphocyte": 0.1891891891891892,
+     "monocyte": 0.13333333333333333,
+     "neutrophil": 0.696969696969697
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 8,
+     "eosinophil": 16,
+     "erythroblast": 13,
+     "immature_granulocyte": 14,
+     "lymphocyte": 10,
+     "monocyte": 5,
+     "neutrophil": 29,
+     "platelet": 5
+    }
+   }
+  },
+  "scale+stain": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.23,
+    "macro_recall": 0.3092052601486564,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.36363636363636365,
+     "lymphocyte": 0.8490566037735849,
+     "monocyte": 0.3333333333333333,
+     "neutrophil": 0.0
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 0,
+     "eosinophil": 71,
+     "erythroblast": 21,
+     "immature_granulocyte": 0,
+     "lymphocyte": 79,
+     "monocyte": 57,
+     "neutrophil": 0,
+     "platelet": 72
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.43,
+    "macro_recall": 0.4878378378378378,
+    "recall": {
+     "basophil": 0.6666666666666666,
+     "eosinophil": 0.5833333333333334,
+     "lymphocyte": 0.1891891891891892,
+     "monocyte": 0.3333333333333333,
+     "neutrophil": 0.6666666666666666
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 11,
+     "eosinophil": 7,
+     "erythroblast": 0,
+     "immature_granulocyte": 18,
+     "lymphocyte": 9,
+     "monocyte": 24,
+     "neutrophil": 23,
+     "platelet": 8
+    }
+   }
+  }
+ },
+ "baseline_resnet18_s0": {
+  "raw": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.056666666666666664,
+    "macro_recall": 0.15454545454545454,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.7727272727272727,
+     "lymphocyte": 0.0,
+     "monocyte": 0.0,
+     "neutrophil": 0.0
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 78,
+     "eosinophil": 125,
+     "erythroblast": 97,
+     "immature_granulocyte": 0,
+     "lymphocyte": 0,
+     "monocyte": 0,
+     "neutrophil": 0,
+     "platelet": 0
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.24,
+    "macro_recall": 0.2376330876330876,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.75,
+     "lymphocyte": 0.13513513513513514,
+     "monocyte": 0.0,
+     "neutrophil": 0.30303030303030304
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 0,
+     "eosinophil": 34,
+     "erythroblast": 19,
+     "immature_granulocyte": 4,
+     "lymphocyte": 9,
+     "monocyte": 1,
+     "neutrophil": 12,
+     "platelet": 21
+    }
+   }
+  },
+  "scale": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.013333333333333334,
+    "macro_recall": 0.22727272727272724,
+    "recall": {
+     "basophil": 1.0,
+     "eosinophil": 0.13636363636363635,
+     "lymphocyte": 0.0,
+     "monocyte": 0.0,
+     "neutrophil": 0.0
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 213,
+     "eosinophil": 46,
+     "erythroblast": 39,
+     "immature_granulocyte": 0,
+     "lymphocyte": 2,
+     "monocyte": 0,
+     "neutrophil": 0,
+     "platelet": 0
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.4,
+    "macro_recall": 0.32936117936117937,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.75,
+     "lymphocyte": 0.35135135135135137,
+     "monocyte": 0.0,
+     "neutrophil": 0.5454545454545454
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 4,
+     "eosinophil": 17,
+     "erythroblast": 7,
+     "immature_granulocyte": 22,
+     "lymphocyte": 17,
+     "monocyte": 4,
+     "neutrophil": 21,
+     "platelet": 8
+    }
+   }
+  },
+  "stain": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.13333333333333333,
+    "macro_recall": 0.2501214979988565,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.8636363636363636,
+     "lymphocyte": 0.33962264150943394,
+     "monocyte": 0.041666666666666664,
+     "neutrophil": 0.005681818181818182
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 0,
+     "eosinophil": 156,
+     "erythroblast": 93,
+     "immature_granulocyte": 1,
+     "lymphocyte": 45,
+     "monocyte": 2,
+     "neutrophil": 1,
+     "platelet": 2
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.19,
+    "macro_recall": 0.16556101556101557,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.4166666666666667,
+     "lymphocyte": 0.10810810810810811,
+     "monocyte": 0.0,
+     "neutrophil": 0.30303030303030304
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 0,
+     "eosinophil": 25,
+     "erythroblast": 45,
+     "immature_granulocyte": 7,
+     "lymphocyte": 7,
+     "monocyte": 0,
+     "neutrophil": 13,
+     "platelet": 3
+    }
+   }
+  },
+  "scale+stain": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.17,
+    "macro_recall": 0.27575042881646655,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.6818181818181818,
+     "lymphocyte": 0.5094339622641509,
+     "monocyte": 0.1875,
+     "neutrophil": 0.0
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 0,
+     "eosinophil": 197,
+     "erythroblast": 31,
+     "immature_granulocyte": 1,
+     "lymphocyte": 40,
+     "monocyte": 21,
+     "neutrophil": 0,
+     "platelet": 10
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.33,
+    "macro_recall": 0.2782391482391483,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.5833333333333334,
+     "lymphocyte": 0.13513513513513514,
+     "monocyte": 0.06666666666666667,
+     "neutrophil": 0.6060606060606061
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 0,
+     "eosinophil": 16,
+     "erythroblast": 11,
+     "immature_granulocyte": 27,
+     "lymphocyte": 9,
+     "monocyte": 11,
+     "neutrophil": 23,
+     "platelet": 3
+    }
+   }
+  }
+ },
+ "baseline_vit_s0": {
+  "raw": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.08333333333333333,
+    "macro_recall": 0.20600343053173242,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.9545454545454546,
+     "lymphocyte": 0.07547169811320754,
+     "monocyte": 0.0,
+     "neutrophil": 0.0
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 0,
+     "eosinophil": 156,
+     "erythroblast": 115,
+     "immature_granulocyte": 0,
+     "lymphocyte": 5,
+     "monocyte": 0,
+     "neutrophil": 0,
+     "platelet": 24
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.21,
+    "macro_recall": 0.22868959868959865,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.75,
+     "lymphocyte": 0.05405405405405406,
+     "monocyte": 0.06666666666666667,
+     "neutrophil": 0.2727272727272727
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 0,
+     "eosinophil": 23,
+     "erythroblast": 19,
+     "immature_granulocyte": 6,
+     "lymphocyte": 4,
+     "monocyte": 2,
+     "neutrophil": 10,
+     "platelet": 36
+    }
+   }
+  },
+  "scale": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.056666666666666664,
+    "macro_recall": 0.14962121212121213,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.7272727272727273,
+     "lymphocyte": 0.0,
+     "monocyte": 0.020833333333333332,
+     "neutrophil": 0.0
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 67,
+     "eosinophil": 202,
+     "erythroblast": 18,
+     "immature_granulocyte": 9,
+     "lymphocyte": 0,
+     "monocyte": 1,
+     "neutrophil": 0,
+     "platelet": 3
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.43,
+    "macro_recall": 0.37334971334971334,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.8333333333333334,
+     "lymphocyte": 0.32432432432432434,
+     "monocyte": 0.13333333333333333,
+     "neutrophil": 0.5757575757575758
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 0,
+     "eosinophil": 24,
+     "erythroblast": 9,
+     "immature_granulocyte": 15,
+     "lymphocyte": 15,
+     "monocyte": 6,
+     "neutrophil": 21,
+     "platelet": 10
+    }
+   }
+  },
+  "stain": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.23333333333333334,
+    "macro_recall": 0.33267581475128644,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.5454545454545454,
+     "lymphocyte": 0.8679245283018868,
+     "monocyte": 0.25,
+     "neutrophil": 0.0
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 6,
+     "eosinophil": 159,
+     "erythroblast": 30,
+     "immature_granulocyte": 2,
+     "lymphocyte": 91,
+     "monocyte": 12,
+     "neutrophil": 0,
+     "platelet": 0
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.17,
+    "macro_recall": 0.1501064701064701,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.3333333333333333,
+     "lymphocyte": 0.10810810810810811,
+     "monocyte": 0.06666666666666667,
+     "neutrophil": 0.24242424242424243
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 0,
+     "eosinophil": 14,
+     "erythroblast": 39,
+     "immature_granulocyte": 4,
+     "lymphocyte": 9,
+     "monocyte": 2,
+     "neutrophil": 10,
+     "platelet": 22
+    }
+   }
+  },
+  "scale+stain": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.10333333333333333,
+    "macro_recall": 0.18294025157232702,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.5,
+     "lymphocyte": 0.018867924528301886,
+     "monocyte": 0.3958333333333333,
+     "neutrophil": 0.0
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 1,
+     "eosinophil": 178,
+     "erythroblast": 59,
+     "immature_granulocyte": 1,
+     "lymphocyte": 2,
+     "monocyte": 46,
+     "neutrophil": 0,
+     "platelet": 13
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.36,
+    "macro_recall": 0.28248157248157246,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.4166666666666667,
+     "lymphocyte": 0.13513513513513514,
+     "monocyte": 0.13333333333333333,
+     "neutrophil": 0.7272727272727273
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 0,
+     "eosinophil": 7,
+     "erythroblast": 10,
+     "immature_granulocyte": 12,
+     "lymphocyte": 9,
+     "monocyte": 11,
+     "neutrophil": 29,
+     "platelet": 22
+    }
+   }
+  }
+ },
+ "mae_A_s0": {
+  "raw": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.07,
+    "macro_recall": 0.19090909090909092,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.9545454545454546,
+     "lymphocyte": 0.0,
+     "monocyte": 0.0,
+     "neutrophil": 0.0
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 61,
+     "eosinophil": 232,
+     "erythroblast": 0,
+     "immature_granulocyte": 7,
+     "lymphocyte": 0,
+     "monocyte": 0,
+     "neutrophil": 0,
+     "platelet": 0
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.21,
+    "macro_recall": 0.29954954954954954,
+    "recall": {
+     "basophil": 0.6666666666666666,
+     "eosinophil": 0.4166666666666667,
+     "lymphocyte": 0.08108108108108109,
+     "monocyte": 0.0,
+     "neutrophil": 0.3333333333333333
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 4,
+     "eosinophil": 36,
+     "erythroblast": 10,
+     "immature_granulocyte": 8,
+     "lymphocyte": 4,
+     "monocyte": 4,
+     "neutrophil": 15,
+     "platelet": 19
+    }
+   }
+  },
+  "scale": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.07333333333333333,
+    "macro_recall": 0.2,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 1.0,
+     "lymphocyte": 0.0,
+     "monocyte": 0.0,
+     "neutrophil": 0.0
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 13,
+     "eosinophil": 281,
+     "erythroblast": 0,
+     "immature_granulocyte": 6,
+     "lymphocyte": 0,
+     "monocyte": 0,
+     "neutrophil": 0,
+     "platelet": 0
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.35,
+    "macro_recall": 0.41556101556101555,
+    "recall": {
+     "basophil": 0.6666666666666666,
+     "eosinophil": 0.6666666666666666,
+     "lymphocyte": 0.10810810810810811,
+     "monocyte": 0.0,
+     "neutrophil": 0.6363636363636364
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 3,
+     "eosinophil": 24,
+     "erythroblast": 4,
+     "immature_granulocyte": 23,
+     "lymphocyte": 5,
+     "monocyte": 6,
+     "neutrophil": 28,
+     "platelet": 7
+    }
+   }
+  },
+  "stain": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.12,
+    "macro_recall": 0.33527730131503714,
+    "recall": {
+     "basophil": 1.0,
+     "eosinophil": 0.18181818181818182,
+     "lymphocyte": 0.4339622641509434,
+     "monocyte": 0.020833333333333332,
+     "neutrophil": 0.03977272727272727
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 205,
+     "eosinophil": 23,
+     "erythroblast": 4,
+     "immature_granulocyte": 26,
+     "lymphocyte": 32,
+     "monocyte": 1,
+     "neutrophil": 9,
+     "platelet": 0
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.21,
+    "macro_recall": 0.14056511056511056,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.08333333333333333,
+     "lymphocyte": 0.1891891891891892,
+     "monocyte": 0.06666666666666667,
+     "neutrophil": 0.36363636363636365
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 2,
+     "eosinophil": 13,
+     "erythroblast": 27,
+     "immature_granulocyte": 8,
+     "lymphocyte": 17,
+     "monocyte": 2,
+     "neutrophil": 26,
+     "platelet": 5
+    }
+   }
+  },
+  "scale+stain": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.18666666666666668,
+    "macro_recall": 0.1303030303030303,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.36363636363636365,
+     "lymphocyte": 0.0,
+     "monocyte": 0.020833333333333332,
+     "neutrophil": 0.26704545454545453
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 26,
+     "eosinophil": 97,
+     "erythroblast": 23,
+     "immature_granulocyte": 96,
+     "lymphocyte": 0,
+     "monocyte": 4,
+     "neutrophil": 54,
+     "platelet": 0
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.33,
+    "macro_recall": 0.2516707616707617,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.25,
+     "lymphocyte": 0.08108108108108109,
+     "monocyte": 0.2,
+     "neutrophil": 0.7272727272727273
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 1,
+     "eosinophil": 12,
+     "erythroblast": 14,
+     "immature_granulocyte": 25,
+     "lymphocyte": 4,
+     "monocyte": 4,
+     "neutrophil": 38,
+     "platelet": 2
+    }
+   }
+  }
+ },
+ "mae_A_s1": {
+  "raw": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.07333333333333333,
+    "macro_recall": 0.2,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 1.0,
+     "lymphocyte": 0.0,
+     "monocyte": 0.0,
+     "neutrophil": 0.0
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 5,
+     "eosinophil": 277,
+     "erythroblast": 0,
+     "immature_granulocyte": 18,
+     "lymphocyte": 0,
+     "monocyte": 0,
+     "neutrophil": 0,
+     "platelet": 0
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.15,
+    "macro_recall": 0.16384111384111386,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.5833333333333334,
+     "lymphocyte": 0.05405405405405406,
+     "monocyte": 0.0,
+     "neutrophil": 0.18181818181818182
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 1,
+     "eosinophil": 24,
+     "erythroblast": 19,
+     "immature_granulocyte": 11,
+     "lymphocyte": 5,
+     "monocyte": 2,
+     "neutrophil": 9,
+     "platelet": 29
+    }
+   }
+  },
+  "scale": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.07333333333333333,
+    "macro_recall": 0.2,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 1.0,
+     "lymphocyte": 0.0,
+     "monocyte": 0.0,
+     "neutrophil": 0.0
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 5,
+     "eosinophil": 291,
+     "erythroblast": 0,
+     "immature_granulocyte": 4,
+     "lymphocyte": 0,
+     "monocyte": 0,
+     "neutrophil": 0,
+     "platelet": 0
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.3,
+    "macro_recall": 0.27596232596232595,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.75,
+     "lymphocyte": 0.05405405405405406,
+     "monocyte": 0.0,
+     "neutrophil": 0.5757575757575758
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 3,
+     "eosinophil": 31,
+     "erythroblast": 8,
+     "immature_granulocyte": 24,
+     "lymphocyte": 3,
+     "monocyte": 5,
+     "neutrophil": 20,
+     "platelet": 6
+    }
+   }
+  },
+  "stain": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.32,
+    "macro_recall": 0.5211477987421385,
+    "recall": {
+     "basophil": 1.0,
+     "eosinophil": 0.6818181818181818,
+     "lymphocyte": 0.5849056603773585,
+     "monocyte": 0.08333333333333333,
+     "neutrophil": 0.2556818181818182
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 29,
+     "eosinophil": 91,
+     "erythroblast": 79,
+     "immature_granulocyte": 3,
+     "lymphocyte": 39,
+     "monocyte": 10,
+     "neutrophil": 46,
+     "platelet": 3
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.21,
+    "macro_recall": 0.18031122031122032,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.3333333333333333,
+     "lymphocyte": 0.16216216216216217,
+     "monocyte": 0.13333333333333333,
+     "neutrophil": 0.2727272727272727
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 0,
+     "eosinophil": 19,
+     "erythroblast": 29,
+     "immature_granulocyte": 12,
+     "lymphocyte": 19,
+     "monocyte": 4,
+     "neutrophil": 15,
+     "platelet": 2
+    }
+   }
+  },
+  "scale+stain": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.08666666666666667,
+    "macro_recall": 0.1799242424242424,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.7727272727272727,
+     "lymphocyte": 0.0,
+     "monocyte": 0.10416666666666667,
+     "neutrophil": 0.022727272727272728
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 1,
+     "eosinophil": 153,
+     "erythroblast": 93,
+     "immature_granulocyte": 2,
+     "lymphocyte": 1,
+     "monocyte": 44,
+     "neutrophil": 5,
+     "platelet": 1
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.32,
+    "macro_recall": 0.23833742833742835,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.25,
+     "lymphocyte": 0.08108108108108109,
+     "monocyte": 0.13333333333333333,
+     "neutrophil": 0.7272727272727273
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 0,
+     "eosinophil": 20,
+     "erythroblast": 18,
+     "immature_granulocyte": 18,
+     "lymphocyte": 5,
+     "monocyte": 5,
+     "neutrophil": 32,
+     "platelet": 2
+    }
+   }
+  }
+ },
+ "mae_A_s2": {
+  "raw": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.14,
+    "macro_recall": 0.14318181818181816,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.5454545454545454,
+     "lymphocyte": 0.0,
+     "monocyte": 0.0,
+     "neutrophil": 0.17045454545454544
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 0,
+     "eosinophil": 57,
+     "erythroblast": 0,
+     "immature_granulocyte": 199,
+     "lymphocyte": 0,
+     "monocyte": 0,
+     "neutrophil": 44,
+     "platelet": 0
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.18,
+    "macro_recall": 0.2002047502047502,
+    "recall": {
+     "basophil": 0.3333333333333333,
+     "eosinophil": 0.25,
+     "lymphocyte": 0.05405405405405406,
+     "monocyte": 0.0,
+     "neutrophil": 0.36363636363636365
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 1,
+     "eosinophil": 6,
+     "erythroblast": 22,
+     "immature_granulocyte": 25,
+     "lymphocyte": 3,
+     "monocyte": 1,
+     "neutrophil": 20,
+     "platelet": 22
+    }
+   }
+  },
+  "scale": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.06666666666666667,
+    "macro_recall": 0.1738636363636364,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.8636363636363636,
+     "lymphocyte": 0.0,
+     "monocyte": 0.0,
+     "neutrophil": 0.005681818181818182
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 6,
+     "eosinophil": 128,
+     "erythroblast": 0,
+     "immature_granulocyte": 158,
+     "lymphocyte": 1,
+     "monocyte": 0,
+     "neutrophil": 7,
+     "platelet": 0
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.33,
+    "macro_recall": 0.33353808353808356,
+    "recall": {
+     "basophil": 0.3333333333333333,
+     "eosinophil": 0.5833333333333334,
+     "lymphocyte": 0.05405405405405406,
+     "monocyte": 0.0,
+     "neutrophil": 0.696969696969697
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 1,
+     "eosinophil": 9,
+     "erythroblast": 7,
+     "immature_granulocyte": 46,
+     "lymphocyte": 3,
+     "monocyte": 1,
+     "neutrophil": 29,
+     "platelet": 4
+    }
+   }
+  },
+  "stain": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.23333333333333334,
+    "macro_recall": 0.4902158376214979,
+    "recall": {
+     "basophil": 1.0,
+     "eosinophil": 0.6363636363636364,
+     "lymphocyte": 0.41509433962264153,
+     "monocyte": 0.2916666666666667,
+     "neutrophil": 0.10795454545454546
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 183,
+     "eosinophil": 34,
+     "erythroblast": 1,
+     "immature_granulocyte": 21,
+     "lymphocyte": 28,
+     "monocyte": 14,
+     "neutrophil": 19,
+     "platelet": 0
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.18,
+    "macro_recall": 0.11374283374283374,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.0,
+     "lymphocyte": 0.10810810810810811,
+     "monocyte": 0.06666666666666667,
+     "neutrophil": 0.3939393939393939
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 0,
+     "eosinophil": 1,
+     "erythroblast": 39,
+     "immature_granulocyte": 25,
+     "lymphocyte": 11,
+     "monocyte": 3,
+     "neutrophil": 21,
+     "platelet": 0
+    }
+   }
+  },
+  "scale+stain": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.24666666666666667,
+    "macro_recall": 0.17424242424242425,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.2727272727272727,
+     "lymphocyte": 0.0,
+     "monocyte": 0.2916666666666667,
+     "neutrophil": 0.3068181818181818
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 14,
+     "eosinophil": 120,
+     "erythroblast": 9,
+     "immature_granulocyte": 76,
+     "lymphocyte": 0,
+     "monocyte": 21,
+     "neutrophil": 59,
+     "platelet": 1
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.33,
+    "macro_recall": 0.2370761670761671,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.08333333333333333,
+     "lymphocyte": 0.10810810810810811,
+     "monocyte": 0.26666666666666666,
+     "neutrophil": 0.7272727272727273
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 4,
+     "eosinophil": 1,
+     "erythroblast": 21,
+     "immature_granulocyte": 31,
+     "lymphocyte": 6,
+     "monocyte": 5,
+     "neutrophil": 32,
+     "platelet": 0
+    }
+   }
+  }
+ },
+ "mae_B_s0": {
+  "raw": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.09333333333333334,
+    "macro_recall": 0.20681818181818185,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 1.0,
+     "lymphocyte": 0.0,
+     "monocyte": 0.0,
+     "neutrophil": 0.03409090909090909
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 0,
+     "eosinophil": 231,
+     "erythroblast": 0,
+     "immature_granulocyte": 52,
+     "lymphocyte": 0,
+     "monocyte": 0,
+     "neutrophil": 11,
+     "platelet": 6
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.14,
+    "macro_recall": 0.1484848484848485,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.5,
+     "lymphocyte": 0.0,
+     "monocyte": 0.0,
+     "neutrophil": 0.24242424242424243
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 1,
+     "eosinophil": 35,
+     "erythroblast": 14,
+     "immature_granulocyte": 20,
+     "lymphocyte": 1,
+     "monocyte": 1,
+     "neutrophil": 10,
+     "platelet": 18
+    }
+   }
+  },
+  "scale": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.07333333333333333,
+    "macro_recall": 0.2,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 1.0,
+     "lymphocyte": 0.0,
+     "monocyte": 0.0,
+     "neutrophil": 0.0
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 0,
+     "eosinophil": 244,
+     "erythroblast": 0,
+     "immature_granulocyte": 50,
+     "lymphocyte": 0,
+     "monocyte": 0,
+     "neutrophil": 6,
+     "platelet": 0
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.27,
+    "macro_recall": 0.24782964782964784,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.6666666666666666,
+     "lymphocyte": 0.02702702702702703,
+     "monocyte": 0.0,
+     "neutrophil": 0.5454545454545454
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 2,
+     "eosinophil": 24,
+     "erythroblast": 9,
+     "immature_granulocyte": 34,
+     "lymphocyte": 2,
+     "monocyte": 2,
+     "neutrophil": 21,
+     "platelet": 6
+    }
+   }
+  },
+  "stain": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.24333333333333335,
+    "macro_recall": 0.4061821040594625,
+    "recall": {
+     "basophil": 1.0,
+     "eosinophil": 0.3181818181818182,
+     "lymphocyte": 0.33962264150943394,
+     "monocyte": 0.14583333333333334,
+     "neutrophil": 0.22727272727272727
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 5,
+     "eosinophil": 20,
+     "erythroblast": 183,
+     "immature_granulocyte": 9,
+     "lymphocyte": 31,
+     "monocyte": 8,
+     "neutrophil": 43,
+     "platelet": 1
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.15,
+    "macro_recall": 0.11343980343980345,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.08333333333333333,
+     "lymphocyte": 0.10810810810810811,
+     "monocyte": 0.13333333333333333,
+     "neutrophil": 0.24242424242424243
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 1,
+     "eosinophil": 13,
+     "erythroblast": 38,
+     "immature_granulocyte": 13,
+     "lymphocyte": 10,
+     "monocyte": 2,
+     "neutrophil": 19,
+     "platelet": 4
+    }
+   }
+  },
+  "scale+stain": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.07666666666666666,
+    "macro_recall": 0.1318181818181818,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.5,
+     "lymphocyte": 0.0,
+     "monocyte": 0.125,
+     "neutrophil": 0.03409090909090909
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 0,
+     "eosinophil": 66,
+     "erythroblast": 171,
+     "immature_granulocyte": 43,
+     "lymphocyte": 0,
+     "monocyte": 13,
+     "neutrophil": 7,
+     "platelet": 0
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.31,
+    "macro_recall": 0.30081081081081085,
+    "recall": {
+     "basophil": 0.3333333333333333,
+     "eosinophil": 0.25,
+     "lymphocyte": 0.05405405405405406,
+     "monocyte": 0.2,
+     "neutrophil": 0.6666666666666666
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 2,
+     "eosinophil": 12,
+     "erythroblast": 16,
+     "immature_granulocyte": 23,
+     "lymphocyte": 5,
+     "monocyte": 4,
+     "neutrophil": 34,
+     "platelet": 4
+    }
+   }
+  }
+ },
+ "mae_B_s1": {
+  "raw": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.07333333333333333,
+    "macro_recall": 0.2,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 1.0,
+     "lymphocyte": 0.0,
+     "monocyte": 0.0,
+     "neutrophil": 0.0
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 0,
+     "eosinophil": 297,
+     "erythroblast": 0,
+     "immature_granulocyte": 1,
+     "lymphocyte": 0,
+     "monocyte": 0,
+     "neutrophil": 0,
+     "platelet": 2
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.11,
+    "macro_recall": 0.10843570843570842,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.3333333333333333,
+     "lymphocyte": 0.02702702702702703,
+     "monocyte": 0.0,
+     "neutrophil": 0.18181818181818182
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 1,
+     "eosinophil": 19,
+     "erythroblast": 31,
+     "immature_granulocyte": 14,
+     "lymphocyte": 4,
+     "monocyte": 2,
+     "neutrophil": 11,
+     "platelet": 18
+    }
+   }
+  },
+  "scale": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.07,
+    "macro_recall": 0.19090909090909092,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.9545454545454546,
+     "lymphocyte": 0.0,
+     "monocyte": 0.0,
+     "neutrophil": 0.0
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 4,
+     "eosinophil": 284,
+     "erythroblast": 7,
+     "immature_granulocyte": 4,
+     "lymphocyte": 0,
+     "monocyte": 0,
+     "neutrophil": 0,
+     "platelet": 1
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.27,
+    "macro_recall": 0.23656838656838658,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.5833333333333334,
+     "lymphocyte": 0.05405405405405406,
+     "monocyte": 0.0,
+     "neutrophil": 0.5454545454545454
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 2,
+     "eosinophil": 19,
+     "erythroblast": 9,
+     "immature_granulocyte": 34,
+     "lymphocyte": 3,
+     "monocyte": 4,
+     "neutrophil": 23,
+     "platelet": 6
+    }
+   }
+  },
+  "stain": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.4666666666666667,
+    "macro_recall": 0.4918953687821612,
+    "recall": {
+     "basophil": 1.0,
+     "eosinophil": 0.0,
+     "lymphocyte": 0.6981132075471698,
+     "monocyte": 0.25,
+     "neutrophil": 0.5113636363636364
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 15,
+     "eosinophil": 10,
+     "erythroblast": 85,
+     "immature_granulocyte": 21,
+     "lymphocyte": 56,
+     "monocyte": 19,
+     "neutrophil": 92,
+     "platelet": 2
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.15,
+    "macro_recall": 0.09687141687141687,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.0,
+     "lymphocyte": 0.05405405405405406,
+     "monocyte": 0.06666666666666667,
+     "neutrophil": 0.36363636363636365
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 0,
+     "eosinophil": 0,
+     "erythroblast": 47,
+     "immature_granulocyte": 11,
+     "lymphocyte": 11,
+     "monocyte": 1,
+     "neutrophil": 24,
+     "platelet": 6
+    }
+   }
+  },
+  "scale+stain": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.23333333333333334,
+    "macro_recall": 0.1359848484848485,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.045454545454545456,
+     "lymphocyte": 0.0,
+     "monocyte": 0.3333333333333333,
+     "neutrophil": 0.30113636363636365
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 7,
+     "eosinophil": 37,
+     "erythroblast": 120,
+     "immature_granulocyte": 27,
+     "lymphocyte": 0,
+     "monocyte": 38,
+     "neutrophil": 64,
+     "platelet": 7
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.31,
+    "macro_recall": 0.20773136773136774,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.0,
+     "lymphocyte": 0.08108108108108109,
+     "monocyte": 0.2,
+     "neutrophil": 0.7575757575757576
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 0,
+     "eosinophil": 0,
+     "erythroblast": 25,
+     "immature_granulocyte": 25,
+     "lymphocyte": 5,
+     "monocyte": 4,
+     "neutrophil": 37,
+     "platelet": 4
+    }
+   }
+  }
+ },
+ "mae_B_s2": {
+  "raw": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.08666666666666667,
+    "macro_recall": 0.35568181818181815,
+    "recall": {
+     "basophil": 1.0,
+     "eosinophil": 0.7272727272727273,
+     "lymphocyte": 0.0,
+     "monocyte": 0.0,
+     "neutrophil": 0.05113636363636364
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 59,
+     "eosinophil": 43,
+     "erythroblast": 0,
+     "immature_granulocyte": 189,
+     "lymphocyte": 0,
+     "monocyte": 0,
+     "neutrophil": 9,
+     "platelet": 0
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.1,
+    "macro_recall": 0.08116298116298117,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.16666666666666666,
+     "lymphocyte": 0.02702702702702703,
+     "monocyte": 0.0,
+     "neutrophil": 0.21212121212121213
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 0,
+     "eosinophil": 9,
+     "erythroblast": 25,
+     "immature_granulocyte": 29,
+     "lymphocyte": 2,
+     "monocyte": 1,
+     "neutrophil": 8,
+     "platelet": 26
+    }
+   }
+  },
+  "scale": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.07,
+    "macro_recall": 0.19090909090909092,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.9545454545454546,
+     "lymphocyte": 0.0,
+     "monocyte": 0.0,
+     "neutrophil": 0.0
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 8,
+     "eosinophil": 179,
+     "erythroblast": 0,
+     "immature_granulocyte": 112,
+     "lymphocyte": 0,
+     "monocyte": 0,
+     "neutrophil": 1,
+     "platelet": 0
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.22,
+    "macro_recall": 0.16449631449631447,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.25,
+     "lymphocyte": 0.02702702702702703,
+     "monocyte": 0.0,
+     "neutrophil": 0.5454545454545454
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 1,
+     "eosinophil": 14,
+     "erythroblast": 11,
+     "immature_granulocyte": 37,
+     "lymphocyte": 3,
+     "monocyte": 3,
+     "neutrophil": 21,
+     "platelet": 10
+    }
+   }
+  },
+  "stain": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.24333333333333335,
+    "macro_recall": 0.43778587764436827,
+    "recall": {
+     "basophil": 1.0,
+     "eosinophil": 0.2727272727272727,
+     "lymphocyte": 0.6226415094339622,
+     "monocyte": 0.14583333333333334,
+     "neutrophil": 0.14772727272727273
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 25,
+     "eosinophil": 50,
+     "erythroblast": 134,
+     "immature_granulocyte": 5,
+     "lymphocyte": 53,
+     "monocyte": 7,
+     "neutrophil": 26,
+     "platelet": 0
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.07,
+    "macro_recall": 0.04176904176904177,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.0,
+     "lymphocyte": 0.02702702702702703,
+     "monocyte": 0.0,
+     "neutrophil": 0.18181818181818182
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 0,
+     "eosinophil": 1,
+     "erythroblast": 56,
+     "immature_granulocyte": 27,
+     "lymphocyte": 2,
+     "monocyte": 0,
+     "neutrophil": 12,
+     "platelet": 2
+    }
+   }
+  },
+  "scale+stain": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.10666666666666667,
+    "macro_recall": 0.1458190394511149,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.45454545454545453,
+     "lymphocyte": 0.018867924528301886,
+     "monocyte": 0.1875,
+     "neutrophil": 0.06818181818181818
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 5,
+     "eosinophil": 160,
+     "erythroblast": 66,
+     "immature_granulocyte": 12,
+     "lymphocyte": 2,
+     "monocyte": 33,
+     "neutrophil": 12,
+     "platelet": 10
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.25,
+    "macro_recall": 0.15813267813267814,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.0,
+     "lymphocyte": 0.02702702702702703,
+     "monocyte": 0.06666666666666667,
+     "neutrophil": 0.696969696969697
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 1,
+     "eosinophil": 1,
+     "erythroblast": 26,
+     "immature_granulocyte": 33,
+     "lymphocyte": 2,
+     "monocyte": 2,
+     "neutrophil": 32,
+     "platelet": 3
+    }
+   }
+  }
+ },
+ "mae_C_s0": {
+  "raw": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.07333333333333333,
+    "macro_recall": 0.2,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 1.0,
+     "lymphocyte": 0.0,
+     "monocyte": 0.0,
+     "neutrophil": 0.0
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 1,
+     "eosinophil": 249,
+     "erythroblast": 0,
+     "immature_granulocyte": 49,
+     "lymphocyte": 0,
+     "monocyte": 0,
+     "neutrophil": 1,
+     "platelet": 0
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.11,
+    "macro_recall": 0.10575757575757576,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.25,
+     "lymphocyte": 0.0,
+     "monocyte": 0.06666666666666667,
+     "neutrophil": 0.21212121212121213
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 1,
+     "eosinophil": 23,
+     "erythroblast": 27,
+     "immature_granulocyte": 21,
+     "lymphocyte": 1,
+     "monocyte": 1,
+     "neutrophil": 12,
+     "platelet": 14
+    }
+   }
+  },
+  "scale": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.07333333333333333,
+    "macro_recall": 0.2,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 1.0,
+     "lymphocyte": 0.0,
+     "monocyte": 0.0,
+     "neutrophil": 0.0
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 7,
+     "eosinophil": 265,
+     "erythroblast": 0,
+     "immature_granulocyte": 28,
+     "lymphocyte": 0,
+     "monocyte": 0,
+     "neutrophil": 0,
+     "platelet": 0
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.22,
+    "macro_recall": 0.18303030303030302,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.3333333333333333,
+     "lymphocyte": 0.0,
+     "monocyte": 0.06666666666666667,
+     "neutrophil": 0.5151515151515151
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 2,
+     "eosinophil": 20,
+     "erythroblast": 9,
+     "immature_granulocyte": 38,
+     "lymphocyte": 1,
+     "monocyte": 3,
+     "neutrophil": 23,
+     "platelet": 4
+    }
+   }
+  },
+  "stain": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.17333333333333334,
+    "macro_recall": 0.36183533447684385,
+    "recall": {
+     "basophil": 1.0,
+     "eosinophil": 0.13636363636363635,
+     "lymphocyte": 0.37735849056603776,
+     "monocyte": 0.1875,
+     "neutrophil": 0.10795454545454546
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 20,
+     "eosinophil": 26,
+     "erythroblast": 182,
+     "immature_granulocyte": 11,
+     "lymphocyte": 30,
+     "monocyte": 10,
+     "neutrophil": 20,
+     "platelet": 1
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.2,
+    "macro_recall": 0.1252088452088452,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.0,
+     "lymphocyte": 0.13513513513513514,
+     "monocyte": 0.06666666666666667,
+     "neutrophil": 0.42424242424242425
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 1,
+     "eosinophil": 11,
+     "erythroblast": 35,
+     "immature_granulocyte": 19,
+     "lymphocyte": 15,
+     "monocyte": 1,
+     "neutrophil": 18,
+     "platelet": 0
+    }
+   }
+  },
+  "scale+stain": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.09666666666666666,
+    "macro_recall": 0.1678030303030303,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.5454545454545454,
+     "lymphocyte": 0.0,
+     "monocyte": 0.2708333333333333,
+     "neutrophil": 0.022727272727272728
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 0,
+     "eosinophil": 126,
+     "erythroblast": 100,
+     "immature_granulocyte": 38,
+     "lymphocyte": 0,
+     "monocyte": 26,
+     "neutrophil": 4,
+     "platelet": 6
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.3,
+    "macro_recall": 0.296060606060606,
+    "recall": {
+     "basophil": 0.3333333333333333,
+     "eosinophil": 0.25,
+     "lymphocyte": 0.0,
+     "monocyte": 0.2,
+     "neutrophil": 0.696969696969697
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 2,
+     "eosinophil": 13,
+     "erythroblast": 19,
+     "immature_granulocyte": 27,
+     "lymphocyte": 3,
+     "monocyte": 10,
+     "neutrophil": 26,
+     "platelet": 0
+    }
+   }
+  }
+ },
+ "mae_C_s1": {
+  "raw": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.07333333333333333,
+    "macro_recall": 0.2,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 1.0,
+     "lymphocyte": 0.0,
+     "monocyte": 0.0,
+     "neutrophil": 0.0
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 0,
+     "eosinophil": 298,
+     "erythroblast": 2,
+     "immature_granulocyte": 0,
+     "lymphocyte": 0,
+     "monocyte": 0,
+     "neutrophil": 0,
+     "platelet": 0
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.19,
+    "macro_recall": 0.16818181818181818,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.4166666666666667,
+     "lymphocyte": 0.0,
+     "monocyte": 0.0,
+     "neutrophil": 0.42424242424242425
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 2,
+     "eosinophil": 20,
+     "erythroblast": 22,
+     "immature_granulocyte": 16,
+     "lymphocyte": 1,
+     "monocyte": 3,
+     "neutrophil": 20,
+     "platelet": 16
+    }
+   }
+  },
+  "scale": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.07,
+    "macro_recall": 0.19090909090909092,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.9545454545454546,
+     "lymphocyte": 0.0,
+     "monocyte": 0.0,
+     "neutrophil": 0.0
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 6,
+     "eosinophil": 287,
+     "erythroblast": 7,
+     "immature_granulocyte": 0,
+     "lymphocyte": 0,
+     "monocyte": 0,
+     "neutrophil": 0,
+     "platelet": 0
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.29,
+    "macro_recall": 0.25,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.5833333333333334,
+     "lymphocyte": 0.0,
+     "monocyte": 0.0,
+     "neutrophil": 0.6666666666666666
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 3,
+     "eosinophil": 20,
+     "erythroblast": 13,
+     "immature_granulocyte": 31,
+     "lymphocyte": 1,
+     "monocyte": 4,
+     "neutrophil": 25,
+     "platelet": 3
+    }
+   }
+  },
+  "stain": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.4766666666666667,
+    "macro_recall": 0.5033304745568896,
+    "recall": {
+     "basophil": 1.0,
+     "eosinophil": 0.0,
+     "lymphocyte": 0.6037735849056604,
+     "monocyte": 0.3958333333333333,
+     "neutrophil": 0.5170454545454546
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 29,
+     "eosinophil": 2,
+     "erythroblast": 52,
+     "immature_granulocyte": 23,
+     "lymphocyte": 70,
+     "monocyte": 32,
+     "neutrophil": 92,
+     "platelet": 0
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.26,
+    "macro_recall": 0.16026208026208028,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.0,
+     "lymphocyte": 0.1891891891891892,
+     "monocyte": 0.06666666666666667,
+     "neutrophil": 0.5454545454545454
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 1,
+     "eosinophil": 1,
+     "erythroblast": 35,
+     "immature_granulocyte": 12,
+     "lymphocyte": 14,
+     "monocyte": 2,
+     "neutrophil": 34,
+     "platelet": 1
+    }
+   }
+  },
+  "scale+stain": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.17333333333333334,
+    "macro_recall": 0.12954545454545455,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.09090909090909091,
+     "lymphocyte": 0.0,
+     "monocyte": 0.375,
+     "neutrophil": 0.18181818181818182
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 9,
+     "eosinophil": 39,
+     "erythroblast": 59,
+     "immature_granulocyte": 35,
+     "lymphocyte": 0,
+     "monocyte": 82,
+     "neutrophil": 34,
+     "platelet": 42
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.34,
+    "macro_recall": 0.24379197379197376,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.08333333333333333,
+     "lymphocyte": 0.08108108108108109,
+     "monocyte": 0.26666666666666666,
+     "neutrophil": 0.7878787878787878
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 0,
+     "eosinophil": 1,
+     "erythroblast": 17,
+     "immature_granulocyte": 26,
+     "lymphocyte": 4,
+     "monocyte": 10,
+     "neutrophil": 42,
+     "platelet": 0
+    }
+   }
+  }
+ },
+ "mae_C_s2": {
+  "raw": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.07333333333333333,
+    "macro_recall": 0.12840909090909092,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.5909090909090909,
+     "lymphocyte": 0.0,
+     "monocyte": 0.0,
+     "neutrophil": 0.05113636363636364
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 0,
+     "eosinophil": 86,
+     "erythroblast": 164,
+     "immature_granulocyte": 4,
+     "lymphocyte": 0,
+     "monocyte": 0,
+     "neutrophil": 19,
+     "platelet": 27
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.1,
+    "macro_recall": 0.06060606060606061,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.0,
+     "lymphocyte": 0.0,
+     "monocyte": 0.0,
+     "neutrophil": 0.30303030303030304
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 0,
+     "eosinophil": 3,
+     "erythroblast": 38,
+     "immature_granulocyte": 31,
+     "lymphocyte": 1,
+     "monocyte": 0,
+     "neutrophil": 14,
+     "platelet": 13
+    }
+   }
+  },
+  "scale": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.07,
+    "macro_recall": 0.175,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.8636363636363636,
+     "lymphocyte": 0.0,
+     "monocyte": 0.0,
+     "neutrophil": 0.011363636363636364
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 4,
+     "eosinophil": 179,
+     "erythroblast": 74,
+     "immature_granulocyte": 18,
+     "lymphocyte": 0,
+     "monocyte": 0,
+     "neutrophil": 9,
+     "platelet": 16
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.25,
+    "macro_recall": 0.17934479934479935,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.16666666666666666,
+     "lymphocyte": 0.02702702702702703,
+     "monocyte": 0.06666666666666667,
+     "neutrophil": 0.6363636363636364
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 0,
+     "eosinophil": 5,
+     "erythroblast": 13,
+     "immature_granulocyte": 48,
+     "lymphocyte": 2,
+     "monocyte": 2,
+     "neutrophil": 25,
+     "platelet": 5
+    }
+   }
+  },
+  "stain": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.22666666666666666,
+    "macro_recall": 0.42314179531160667,
+    "recall": {
+     "basophil": 1.0,
+     "eosinophil": 0.4090909090909091,
+     "lymphocyte": 0.4528301886792453,
+     "monocyte": 0.08333333333333333,
+     "neutrophil": 0.17045454545454544
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 59,
+     "eosinophil": 82,
+     "erythroblast": 47,
+     "immature_granulocyte": 31,
+     "lymphocyte": 33,
+     "monocyte": 5,
+     "neutrophil": 30,
+     "platelet": 13
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.11,
+    "macro_recall": 0.07530712530712531,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.08333333333333333,
+     "lymphocyte": 0.08108108108108109,
+     "monocyte": 0.0,
+     "neutrophil": 0.21212121212121213
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 2,
+     "eosinophil": 3,
+     "erythroblast": 58,
+     "immature_granulocyte": 21,
+     "lymphocyte": 5,
+     "monocyte": 0,
+     "neutrophil": 9,
+     "platelet": 2
+    }
+   }
+  },
+  "scale+stain": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.06333333333333334,
+    "macro_recall": 0.10833333333333335,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.4090909090909091,
+     "lymphocyte": 0.0,
+     "monocyte": 0.10416666666666667,
+     "neutrophil": 0.028409090909090908
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 0,
+     "eosinophil": 162,
+     "erythroblast": 50,
+     "immature_granulocyte": 50,
+     "lymphocyte": 0,
+     "monocyte": 14,
+     "neutrophil": 5,
+     "platelet": 19
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.21,
+    "macro_recall": 0.14384111384111384,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.08333333333333333,
+     "lymphocyte": 0.05405405405405406,
+     "monocyte": 0.06666666666666667,
+     "neutrophil": 0.5151515151515151
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 0,
+     "eosinophil": 5,
+     "erythroblast": 36,
+     "immature_granulocyte": 31,
+     "lymphocyte": 3,
+     "monocyte": 3,
+     "neutrophil": 20,
+     "platelet": 2
+    }
+   }
+  }
+ },
+ "mae_random_s0": {
+  "raw": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.05333333333333334,
+    "macro_recall": 0.14545454545454545,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.7272727272727273,
+     "lymphocyte": 0.0,
+     "monocyte": 0.0,
+     "neutrophil": 0.0
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 38,
+     "eosinophil": 106,
+     "erythroblast": 0,
+     "immature_granulocyte": 156,
+     "lymphocyte": 0,
+     "monocyte": 0,
+     "neutrophil": 0,
+     "platelet": 0
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.23,
+    "macro_recall": 0.28419328419328416,
+    "recall": {
+     "basophil": 0.3333333333333333,
+     "eosinophil": 0.6666666666666666,
+     "lymphocyte": 0.02702702702702703,
+     "monocyte": 0.0,
+     "neutrophil": 0.3939393939393939
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 1,
+     "eosinophil": 44,
+     "erythroblast": 14,
+     "immature_granulocyte": 6,
+     "lymphocyte": 2,
+     "monocyte": 2,
+     "neutrophil": 19,
+     "platelet": 12
+    }
+   }
+  },
+  "scale": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.07333333333333333,
+    "macro_recall": 0.2,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 1.0,
+     "lymphocyte": 0.0,
+     "monocyte": 0.0,
+     "neutrophil": 0.0
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 8,
+     "eosinophil": 186,
+     "erythroblast": 0,
+     "immature_granulocyte": 106,
+     "lymphocyte": 0,
+     "monocyte": 0,
+     "neutrophil": 0,
+     "platelet": 0
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.33,
+    "macro_recall": 0.35540540540540533,
+    "recall": {
+     "basophil": 0.3333333333333333,
+     "eosinophil": 0.75,
+     "lymphocyte": 0.02702702702702703,
+     "monocyte": 0.0,
+     "neutrophil": 0.6666666666666666
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 3,
+     "eosinophil": 32,
+     "erythroblast": 13,
+     "immature_granulocyte": 18,
+     "lymphocyte": 2,
+     "monocyte": 3,
+     "neutrophil": 28,
+     "platelet": 1
+    }
+   }
+  },
+  "stain": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.14666666666666667,
+    "macro_recall": 0.3237492853058891,
+    "recall": {
+     "basophil": 1.0,
+     "eosinophil": 0.2727272727272727,
+     "lymphocyte": 0.1509433962264151,
+     "monocyte": 0.041666666666666664,
+     "neutrophil": 0.1534090909090909
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 98,
+     "eosinophil": 20,
+     "erythroblast": 129,
+     "immature_granulocyte": 8,
+     "lymphocyte": 16,
+     "monocyte": 2,
+     "neutrophil": 27,
+     "platelet": 0
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.21,
+    "macro_recall": 0.1651105651105651,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.3333333333333333,
+     "lymphocyte": 0.1891891891891892,
+     "monocyte": 0.0,
+     "neutrophil": 0.30303030303030304
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 0,
+     "eosinophil": 18,
+     "erythroblast": 39,
+     "immature_granulocyte": 14,
+     "lymphocyte": 8,
+     "monocyte": 1,
+     "neutrophil": 16,
+     "platelet": 4
+    }
+   }
+  },
+  "scale+stain": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.12,
+    "macro_recall": 0.18143939393939396,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.6818181818181818,
+     "lymphocyte": 0.0,
+     "monocyte": 0.14583333333333334,
+     "neutrophil": 0.07954545454545454
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 12,
+     "eosinophil": 83,
+     "erythroblast": 140,
+     "immature_granulocyte": 24,
+     "lymphocyte": 0,
+     "monocyte": 25,
+     "neutrophil": 16,
+     "platelet": 0
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.31,
+    "macro_recall": 0.2988943488943489,
+    "recall": {
+     "basophil": 0.3333333333333333,
+     "eosinophil": 0.4166666666666667,
+     "lymphocyte": 0.10810810810810811,
+     "monocyte": 0.0,
+     "neutrophil": 0.6363636363636364
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 3,
+     "eosinophil": 17,
+     "erythroblast": 29,
+     "immature_granulocyte": 17,
+     "lymphocyte": 5,
+     "monocyte": 2,
+     "neutrophil": 26,
+     "platelet": 1
+    }
+   }
+  }
+ },
+ "mae_random_s1": {
+  "raw": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.06666666666666667,
+    "macro_recall": 0.16054888507718695,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.7272727272727273,
+     "lymphocyte": 0.07547169811320754,
+     "monocyte": 0.0,
+     "neutrophil": 0.0
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 0,
+     "eosinophil": 117,
+     "erythroblast": 174,
+     "immature_granulocyte": 1,
+     "lymphocyte": 7,
+     "monocyte": 1,
+     "neutrophil": 0,
+     "platelet": 0
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.11,
+    "macro_recall": 0.1303030303030303,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.5,
+     "lymphocyte": 0.0,
+     "monocyte": 0.0,
+     "neutrophil": 0.15151515151515152
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 1,
+     "eosinophil": 34,
+     "erythroblast": 31,
+     "immature_granulocyte": 14,
+     "lymphocyte": 1,
+     "monocyte": 1,
+     "neutrophil": 5,
+     "platelet": 13
+    }
+   }
+  },
+  "scale": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.07333333333333333,
+    "macro_recall": 0.2,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 1.0,
+     "lymphocyte": 0.0,
+     "monocyte": 0.0,
+     "neutrophil": 0.0
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 0,
+     "eosinophil": 237,
+     "erythroblast": 35,
+     "immature_granulocyte": 28,
+     "lymphocyte": 0,
+     "monocyte": 0,
+     "neutrophil": 0,
+     "platelet": 0
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.25,
+    "macro_recall": 0.23636363636363633,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.6666666666666666,
+     "lymphocyte": 0.0,
+     "monocyte": 0.0,
+     "neutrophil": 0.5151515151515151
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 2,
+     "eosinophil": 33,
+     "erythroblast": 10,
+     "immature_granulocyte": 28,
+     "lymphocyte": 1,
+     "monocyte": 3,
+     "neutrophil": 17,
+     "platelet": 6
+    }
+   }
+  },
+  "stain": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.18666666666666668,
+    "macro_recall": 0.38703544882790164,
+    "recall": {
+     "basophil": 1.0,
+     "eosinophil": 0.5,
+     "lymphocyte": 0.11320754716981132,
+     "monocyte": 0.14583333333333334,
+     "neutrophil": 0.17613636363636365
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 146,
+     "eosinophil": 24,
+     "erythroblast": 57,
+     "immature_granulocyte": 13,
+     "lymphocyte": 14,
+     "monocyte": 9,
+     "neutrophil": 36,
+     "platelet": 1
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.18,
+    "macro_recall": 0.12833742833742834,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.16666666666666666,
+     "lymphocyte": 0.08108108108108109,
+     "monocyte": 0.0,
+     "neutrophil": 0.3939393939393939
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 2,
+     "eosinophil": 13,
+     "erythroblast": 42,
+     "immature_granulocyte": 15,
+     "lymphocyte": 4,
+     "monocyte": 1,
+     "neutrophil": 19,
+     "platelet": 4
+    }
+   }
+  },
+  "scale+stain": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.11666666666666667,
+    "macro_recall": 0.1787878787878788,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.5,
+     "lymphocyte": 0.0,
+     "monocyte": 0.3541666666666667,
+     "neutrophil": 0.03977272727272727
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 5,
+     "eosinophil": 114,
+     "erythroblast": 104,
+     "immature_granulocyte": 34,
+     "lymphocyte": 0,
+     "monocyte": 36,
+     "neutrophil": 7,
+     "platelet": 0
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.3,
+    "macro_recall": 0.2268714168714169,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.25,
+     "lymphocyte": 0.05405405405405406,
+     "monocyte": 0.13333333333333333,
+     "neutrophil": 0.696969696969697
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 1,
+     "eosinophil": 4,
+     "erythroblast": 24,
+     "immature_granulocyte": 28,
+     "lymphocyte": 3,
+     "monocyte": 4,
+     "neutrophil": 28,
+     "platelet": 8
+    }
+   }
+  }
+ },
+ "mae_random_s2": {
+  "raw": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.043333333333333335,
+    "macro_recall": 0.1181818181818182,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.5909090909090909,
+     "lymphocyte": 0.0,
+     "monocyte": 0.0,
+     "neutrophil": 0.0
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 0,
+     "eosinophil": 105,
+     "erythroblast": 1,
+     "immature_granulocyte": 27,
+     "lymphocyte": 0,
+     "monocyte": 0,
+     "neutrophil": 0,
+     "platelet": 167
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.21,
+    "macro_recall": 0.2502047502047502,
+    "recall": {
+     "basophil": 0.3333333333333333,
+     "eosinophil": 0.5,
+     "lymphocyte": 0.05405405405405406,
+     "monocyte": 0.0,
+     "neutrophil": 0.36363636363636365
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 3,
+     "eosinophil": 26,
+     "erythroblast": 17,
+     "immature_granulocyte": 12,
+     "lymphocyte": 3,
+     "monocyte": 2,
+     "neutrophil": 18,
+     "platelet": 19
+    }
+   }
+  },
+  "scale": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.07333333333333333,
+    "macro_recall": 0.2,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 1.0,
+     "lymphocyte": 0.0,
+     "monocyte": 0.0,
+     "neutrophil": 0.0
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 0,
+     "eosinophil": 197,
+     "erythroblast": 1,
+     "immature_granulocyte": 70,
+     "lymphocyte": 0,
+     "monocyte": 0,
+     "neutrophil": 0,
+     "platelet": 32
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.35,
+    "macro_recall": 0.41556101556101555,
+    "recall": {
+     "basophil": 0.6666666666666666,
+     "eosinophil": 0.6666666666666666,
+     "lymphocyte": 0.10810810810810811,
+     "monocyte": 0.0,
+     "neutrophil": 0.6363636363636364
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 8,
+     "eosinophil": 19,
+     "erythroblast": 5,
+     "immature_granulocyte": 28,
+     "lymphocyte": 5,
+     "monocyte": 4,
+     "neutrophil": 25,
+     "platelet": 6
+    }
+   }
+  },
+  "stain": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.49666666666666665,
+    "macro_recall": 0.5122284162378502,
+    "recall": {
+     "basophil": 1.0,
+     "eosinophil": 0.36363636363636365,
+     "lymphocyte": 0.3584905660377358,
+     "monocyte": 0.20833333333333334,
+     "neutrophil": 0.6306818181818182
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 14,
+     "eosinophil": 36,
+     "erythroblast": 35,
+     "immature_granulocyte": 49,
+     "lymphocyte": 28,
+     "monocyte": 12,
+     "neutrophil": 125,
+     "platelet": 1
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.26,
+    "macro_recall": 0.1941031941031941,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.3333333333333333,
+     "lymphocyte": 0.24324324324324326,
+     "monocyte": 0.0,
+     "neutrophil": 0.3939393939393939
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 3,
+     "eosinophil": 18,
+     "erythroblast": 21,
+     "immature_granulocyte": 24,
+     "lymphocyte": 13,
+     "monocyte": 1,
+     "neutrophil": 18,
+     "platelet": 2
+    }
+   }
+  },
+  "scale+stain": {
+   "Dataset 1": {
+    "n": 300,
+    "accuracy": 0.09666666666666666,
+    "macro_recall": 0.16856060606060605,
+    "recall": {
+     "basophil": 0.0,
+     "eosinophil": 0.6363636363636364,
+     "lymphocyte": 0.0,
+     "monocyte": 0.16666666666666666,
+     "neutrophil": 0.03977272727272727
+    },
+    "counts": {
+     "basophil": 1,
+     "eosinophil": 22,
+     "lymphocyte": 53,
+     "monocyte": 48,
+     "neutrophil": 176
+    },
+    "predicted": {
+     "basophil": 0,
+     "eosinophil": 180,
+     "erythroblast": 33,
+     "immature_granulocyte": 40,
+     "lymphocyte": 0,
+     "monocyte": 32,
+     "neutrophil": 7,
+     "platelet": 8
+    }
+   },
+   "Dataset 2": {
+    "n": 100,
+    "accuracy": 0.32,
+    "macro_recall": 0.3268222768222769,
+    "recall": {
+     "basophil": 0.3333333333333333,
+     "eosinophil": 0.5833333333333334,
+     "lymphocyte": 0.08108108108108109,
+     "monocyte": 0.0,
+     "neutrophil": 0.6363636363636364
+    },
+    "counts": {
+     "basophil": 3,
+     "eosinophil": 12,
+     "lymphocyte": 37,
+     "monocyte": 15,
+     "neutrophil": 33
+    },
+    "predicted": {
+     "basophil": 2,
+     "eosinophil": 16,
+     "erythroblast": 21,
+     "immature_granulocyte": 25,
+     "lymphocyte": 5,
+     "monocyte": 2,
+     "neutrophil": 28,
+     "platelet": 1
+    }
+   }
+  }
+ }
+}

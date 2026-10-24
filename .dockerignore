@@ -1,0 +1,10 @@
+.venv/
+data/
+logs/
+results/
+docs/
+honda/
+nanomedicine_seminar/
+**/__pycache__/
+*.pdf
+checkpoints/

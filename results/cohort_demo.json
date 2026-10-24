@@ -1,0 +1,640 @@
+{
+ "model_version": "cnn-6c13f4c0e0",
+ "report_mode": "template",
+ "slides": [
+  {
+   "slide_id": "SIM-normal-1",
+   "profile": "normal",
+   "status": "draft_for_review",
+   "author": "template",
+   "true_pct": {
+    "neutrophil": 60.5,
+    "lymphocyte": 30,
+    "monocyte": 6,
+    "eosinophil": 3,
+    "basophil": 0.5
+   },
+   "measured_pct": {
+    "basophil": 0.5,
+    "eosinophil": 3.6,
+    "erythroblast": 0.5,
+    "immature_granulocyte": 0.5,
+    "lymphocyte": 30.3,
+    "monocyte": 6.2,
+    "neutrophil": 59.0
+   },
+   "flags": {},
+   "verifier_notes": [],
+   "report": "Slide SIM-normal-1: differential of 195 white cells.\n- neutrophils: 59.0% (reference 40.0-70.0%, normal).\n- lymphocytes: 30.3% (reference 20.0-40.0%, normal).\n- monocytes: 6.2% (reference 2.0-8.0%, normal).\n- eosinophils: 3.6% (reference 1.0-4.0%, normal).\n- basophils: 0.5% (reference 0.0-1.0%, normal).\n- nucleated red cells (erythroblasts): 0.5 per 100 white cells (normal).\n- immature granulocytes: 0.5% (reference 0.0-2.0%, normal).\nAll counted cell types are within reference ranges.\nDRAFT - automated analysis; requires review and sign-off by a qualified hematologist."
+  },
+  {
+   "slide_id": "SIM-monocytosis-1",
+   "profile": "monocytosis",
+   "status": "draft_for_review",
+   "author": "template",
+   "true_pct": {
+    "neutrophil": 52,
+    "lymphocyte": 30,
+    "monocyte": 15,
+    "eosinophil": 2,
+    "basophil": 1
+   },
+   "measured_pct": {
+    "basophil": 1.0,
+    "eosinophil": 2.6,
+    "erythroblast": 0.0,
+    "immature_granulocyte": 0.5,
+    "lymphocyte": 31.3,
+    "monocyte": 15.6,
+    "neutrophil": 49.0
+   },
+   "flags": {
+    "monocyte": "high"
+   },
+   "verifier_notes": [],
+   "report": "Slide SIM-monocytosis-1: differential of 192 white cells.\n- neutrophils: 49.0% (reference 40.0-70.0%, normal).\n- lymphocytes: 31.3% (reference 20.0-40.0%, normal).\n- monocytes: 15.6% (reference 2.0-8.0%, high).\n- eosinophils: 2.6% (reference 1.0-4.0%, normal).\n- basophils: 1.0% (reference 0.0-1.0%, normal).\n- immature granulocytes: 0.5% (reference 0.0-2.0%, normal).\n- nucleated red cells (erythroblasts): 0.0 per 100 white cells (normal).\nOutside reference range: monocyte high.\nDRAFT - automated analysis; requires review and sign-off by a qualified hematologist."
+  },
+  {
+   "slide_id": "SIM-eosinophilia-1",
+   "profile": "eosinophilia",
+   "status": "draft_for_review",
+   "author": "template",
+   "true_pct": {
+    "neutrophil": 55,
+    "lymphocyte": 25,
+    "monocyte": 6,
+    "eosinophil": 13,
+    "basophil": 1
+   },
+   "measured_pct": {
+    "basophil": 1.5,
+    "eosinophil": 13.1,
+    "erythroblast": 0.0,
+    "immature_granulocyte": 1.0,
+    "lymphocyte": 24.7,
+    "monocyte": 6.1,
+    "neutrophil": 53.5
+   },
+   "flags": {
+    "basophil": "high",
+    "eosinophil": "high"
+   },
+   "verifier_notes": [],
+   "report": "Slide SIM-eosinophilia-1: differential of 198 white cells.\n- neutrophils: 53.5% (reference 40.0-70.0%, normal).\n- lymphocytes: 24.7% (reference 20.0-40.0%, normal).\n- eosinophils: 13.1% (reference 1.0-4.0%, high).\n- monocytes: 6.1% (reference 2.0-8.0%, normal).\n- basophils: 1.5% (reference 0.0-1.0%, high).\n- immature granulocytes: 1.0% (reference 0.0-2.0%, normal).\n- nucleated red cells (erythroblasts): 0.0 per 100 white cells (normal).\nOutside reference range: basophil high, eosinophil high.\nDRAFT - automated analysis; requires review and sign-off by a qualified hematologist."
+  },
+  {
+   "slide_id": "SIM-left_shift-1",
+   "profile": "left_shift",
+   "status": "draft_for_review",
+   "author": "template",
+   "true_pct": {
+    "neutrophil": 68,
+    "lymphocyte": 18,
+    "monocyte": 5,
+    "eosinophil": 2,
+    "immature_granulocyte": 7
+   },
+   "measured_pct": {
+    "basophil": 0.5,
+    "eosinophil": 2.2,
+    "erythroblast": 0.0,
+    "immature_granulocyte": 8.1,
+    "lymphocyte": 19.4,
+    "monocyte": 5.4,
+    "neutrophil": 64.5
+   },
+   "flags": {
+    "immature_granulocyte": "high",
+    "lymphocyte": "low"
+   },
+   "verifier_notes": [],
+   "report": "Slide SIM-left_shift-1: differential of 186 white cells.\n- neutrophils: 64.5% (reference 40.0-70.0%, normal).\n- lymphocytes: 19.4% (reference 20.0-40.0%, low).\n- immature granulocytes: 8.1% (reference 0.0-2.0%, high).\n- monocytes: 5.4% (reference 2.0-8.0%, normal).\n- eosinophils: 2.2% (reference 1.0-4.0%, normal).\n- basophils: 0.5% (reference 0.0-1.0%, normal).\n- nucleated red cells (erythroblasts): 0.0 per 100 white cells (normal).\nOutside reference range: immature granulocytes high, lymphocyte low.\nDRAFT - automated analysis; requires review and sign-off by a qualified hematologist."
+  },
+  {
+   "slide_id": "SIM-lymphocytosis-1",
+   "profile": "lymphocytosis",
+   "status": "draft_for_review",
+   "author": "template",
+   "true_pct": {
+    "neutrophil": 35,
+    "lymphocyte": 55,
+    "monocyte": 7,
+    "eosinophil": 2,
+    "basophil": 1
+   },
+   "measured_pct": {
+    "basophil": 1.5,
+    "eosinophil": 2.0,
+    "erythroblast": 0.0,
+    "immature_granulocyte": 1.0,
+    "lymphocyte": 55.8,
+    "monocyte": 6.1,
+    "neutrophil": 33.5
+   },
+   "flags": {
+    "basophil": "high",
+    "lymphocyte": "high",
+    "neutrophil": "low"
+   },
+   "verifier_notes": [],
+   "report": "Slide SIM-lymphocytosis-1: differential of 197 white cells.\n- lymphocytes: 55.8% (reference 20.0-40.0%, high).\n- neutrophils: 33.5% (reference 40.0-70.0%, low).\n- monocytes: 6.1% (reference 2.0-8.0%, normal).\n- eosinophils: 2.0% (reference 1.0-4.0%, normal).\n- basophils: 1.5% (reference 0.0-1.0%, high).\n- immature granulocytes: 1.0% (reference 0.0-2.0%, normal).\n- nucleated red cells (erythroblasts): 0.0 per 100 white cells (normal).\nOutside reference range: basophil high, lymphocyte high, neutrophil low.\nDRAFT - automated analysis; requires review and sign-off by a qualified hematologist."
+  },
+  {
+   "slide_id": "SIM-nucleated_reds-1",
+   "profile": "nucleated_reds",
+   "status": "draft_for_review",
+   "author": "template",
+   "true_pct": {
+    "neutrophil": 60.5,
+    "lymphocyte": 30,
+    "monocyte": 6,
+    "eosinophil": 3,
+    "basophil": 0.5,
+    "erythroblast": 6
+   },
+   "measured_pct": {
+    "basophil": 1.0,
+    "eosinophil": 3.1,
+    "erythroblast": 6.3,
+    "immature_granulocyte": 0.0,
+    "lymphocyte": 30.7,
+    "monocyte": 6.3,
+    "neutrophil": 58.9
+   },
+   "flags": {
+    "erythroblast": "high"
+   },
+   "verifier_notes": [],
+   "report": "Slide SIM-nucleated_reds-1: differential of 192 white cells.\n- neutrophils: 58.9% (reference 40.0-70.0%, normal).\n- lymphocytes: 30.7% (reference 20.0-40.0%, normal).\n- nucleated red cells (erythroblasts): 6.3 per 100 white cells (high).\n- monocytes: 6.3% (reference 2.0-8.0%, normal).\n- eosinophils: 3.1% (reference 1.0-4.0%, normal).\n- basophils: 1.0% (reference 0.0-1.0%, normal).\n- immature granulocytes: 0.0% (reference 0.0-2.0%, normal).\nOutside reference range: nucleated red cells (erythroblasts) high.\nDRAFT - automated analysis; requires review and sign-off by a qualified hematologist."
+  },
+  {
+   "slide_id": "SIM-normal-2",
+   "profile": "normal",
+   "status": "draft_for_review",
+   "author": "template",
+   "true_pct": {
+    "neutrophil": 60.5,
+    "lymphocyte": 30,
+    "monocyte": 6,
+    "eosinophil": 3,
+    "basophil": 0.5
+   },
+   "measured_pct": {
+    "basophil": 0.5,
+    "eosinophil": 3.2,
+    "erythroblast": 0.5,
+    "immature_granulocyte": 0.5,
+    "lymphocyte": 31.1,
+    "monocyte": 6.3,
+    "neutrophil": 58.4
+   },
+   "flags": {},
+   "verifier_notes": [],
+   "report": "Slide SIM-normal-2: differential of 190 white cells.\n- neutrophils: 58.4% (reference 40.0-70.0%, normal).\n- lymphocytes: 31.1% (reference 20.0-40.0%, normal).\n- monocytes: 6.3% (reference 2.0-8.0%, normal).\n- eosinophils: 3.2% (reference 1.0-4.0%, normal).\n- basophils: 0.5% (reference 0.0-1.0%, normal).\n- nucleated red cells (erythroblasts): 0.5 per 100 white cells (normal).\n- immature granulocytes: 0.5% (reference 0.0-2.0%, normal).\nAll counted cell types are within reference ranges.\nDRAFT - automated analysis; requires review and sign-off by a qualified hematologist."
+  },
+  {
+   "slide_id": "SIM-monocytosis-2",
+   "profile": "monocytosis",
+   "status": "draft_for_review",
+   "author": "template",
+   "true_pct": {
+    "neutrophil": 52,
+    "lymphocyte": 30,
+    "monocyte": 15,
+    "eosinophil": 2,
+    "basophil": 1
+   },
+   "measured_pct": {
+    "basophil": 1.0,
+    "eosinophil": 2.1,
+    "erythroblast": 0.0,
+    "immature_granulocyte": 0.5,
+    "lymphocyte": 31.3,
+    "monocyte": 14.9,
+    "neutrophil": 50.3
+   },
+   "flags": {
+    "monocyte": "high"
+   },
+   "verifier_notes": [],
+   "report": "Slide SIM-monocytosis-2: differential of 195 white cells.\n- neutrophils: 50.3% (reference 40.0-70.0%, normal).\n- lymphocytes: 31.3% (reference 20.0-40.0%, normal).\n- monocytes: 14.9% (reference 2.0-8.0%, high).\n- eosinophils: 2.1% (reference 1.0-4.0%, normal).\n- basophils: 1.0% (reference 0.0-1.0%, normal).\n- immature granulocytes: 0.5% (reference 0.0-2.0%, normal).\n- nucleated red cells (erythroblasts): 0.0 per 100 white cells (normal).\nOutside reference range: monocyte high.\nDRAFT - automated analysis; requires review and sign-off by a qualified hematologist."
+  },
+  {
+   "slide_id": "SIM-eosinophilia-2",
+   "profile": "eosinophilia",
+   "status": "draft_for_review",
+   "author": "template",
+   "true_pct": {
+    "neutrophil": 55,
+    "lymphocyte": 25,
+    "monocyte": 6,
+    "eosinophil": 13,
+    "basophil": 1
+   },
+   "measured_pct": {
+    "basophil": 1.0,
+    "eosinophil": 13.5,
+    "erythroblast": 0.0,
+    "immature_granulocyte": 0.0,
+    "lymphocyte": 26.4,
+    "monocyte": 5.2,
+    "neutrophil": 53.9
+   },
+   "flags": {
+    "eosinophil": "high"
+   },
+   "verifier_notes": [],
+   "report": "Slide SIM-eosinophilia-2: differential of 193 white cells.\n- neutrophils: 53.9% (reference 40.0-70.0%, normal).\n- lymphocytes: 26.4% (reference 20.0-40.0%, normal).\n- eosinophils: 13.5% (reference 1.0-4.0%, high).\n- monocytes: 5.2% (reference 2.0-8.0%, normal).\n- basophils: 1.0% (reference 0.0-1.0%, normal).\n- nucleated red cells (erythroblasts): 0.0 per 100 white cells (normal).\n- immature granulocytes: 0.0% (reference 0.0-2.0%, normal).\nOutside reference range: eosinophil high.\nDRAFT - automated analysis; requires review and sign-off by a qualified hematologist."
+  },
+  {
+   "slide_id": "SIM-left_shift-2",
+   "profile": "left_shift",
+   "status": "draft_for_review",
+   "author": "template",
+   "true_pct": {
+    "neutrophil": 68,
+    "lymphocyte": 18,
+    "monocyte": 5,
+    "eosinophil": 2,
+    "immature_granulocyte": 7
+   },
+   "measured_pct": {
+    "basophil": 0.5,
+    "eosinophil": 2.2,
+    "erythroblast": 0.0,
+    "immature_granulocyte": 7.7,
+    "lymphocyte": 19.1,
+    "monocyte": 4.9,
+    "neutrophil": 65.6
+   },
+   "flags": {
+    "immature_granulocyte": "high",
+    "lymphocyte": "low"
+   },
+   "verifier_notes": [],
+   "report": "Slide SIM-left_shift-2: differential of 183 white cells.\n- neutrophils: 65.6% (reference 40.0-70.0%, normal).\n- lymphocytes: 19.1% (reference 20.0-40.0%, low).\n- immature granulocytes: 7.7% (reference 0.0-2.0%, high).\n- monocytes: 4.9% (reference 2.0-8.0%, normal).\n- eosinophils: 2.2% (reference 1.0-4.0%, normal).\n- basophils: 0.5% (reference 0.0-1.0%, normal).\n- nucleated red cells (erythroblasts): 0.0 per 100 white cells (normal).\nOutside reference range: immature granulocytes high, lymphocyte low.\nDRAFT - automated analysis; requires review and sign-off by a qualified hematologist."
+  },
+  {
+   "slide_id": "SIM-lymphocytosis-2",
+   "profile": "lymphocytosis",
+   "status": "draft_for_review",
+   "author": "template",
+   "true_pct": {
+    "neutrophil": 35,
+    "lymphocyte": 55,
+    "monocyte": 7,
+    "eosinophil": 2,
+    "basophil": 1
+   },
+   "measured_pct": {
+    "basophil": 1.0,
+    "eosinophil": 2.0,
+    "erythroblast": 0.0,
+    "immature_granulocyte": 0.0,
+    "lymphocyte": 55.6,
+    "monocyte": 7.1,
+    "neutrophil": 34.2
+   },
+   "flags": {
+    "lymphocyte": "high",
+    "neutrophil": "low"
+   },
+   "verifier_notes": [],
+   "report": "Slide SIM-lymphocytosis-2: differential of 196 white cells.\n- lymphocytes: 55.6% (reference 20.0-40.0%, high).\n- neutrophils: 34.2% (reference 40.0-70.0%, low).\n- monocytes: 7.1% (reference 2.0-8.0%, normal).\n- eosinophils: 2.0% (reference 1.0-4.0%, normal).\n- basophils: 1.0% (reference 0.0-1.0%, normal).\n- nucleated red cells (erythroblasts): 0.0 per 100 white cells (normal).\n- immature granulocytes: 0.0% (reference 0.0-2.0%, normal).\nOutside reference range: lymphocyte high, neutrophil low.\nDRAFT - automated analysis; requires review and sign-off by a qualified hematologist."
+  },
+  {
+   "slide_id": "SIM-nucleated_reds-2",
+   "profile": "nucleated_reds",
+   "status": "draft_for_review",
+   "author": "template",
+   "true_pct": {
+    "neutrophil": 60.5,
+    "lymphocyte": 30,
+    "monocyte": 6,
+    "eosinophil": 3,
+    "basophil": 0.5,
+    "erythroblast": 6
+   },
+   "measured_pct": {
+    "basophil": 0.5,
+    "eosinophil": 3.7,
+    "erythroblast": 5.9,
+    "immature_granulocyte": 1.1,
+    "lymphocyte": 31.0,
+    "monocyte": 6.4,
+    "neutrophil": 57.2
+   },
+   "flags": {
+    "erythroblast": "high"
+   },
+   "verifier_notes": [],
+   "report": "Slide SIM-nucleated_reds-2: differential of 187 white cells.\n- neutrophils: 57.2% (reference 40.0-70.0%, normal).\n- lymphocytes: 31.0% (reference 20.0-40.0%, normal).\n- monocytes: 6.4% (reference 2.0-8.0%, normal).\n- nucleated red cells (erythroblasts): 5.9 per 100 white cells (high).\n- eosinophils: 3.7% (reference 1.0-4.0%, normal).\n- immature granulocytes: 1.1% (reference 0.0-2.0%, normal).\n- basophils: 0.5% (reference 0.0-1.0%, normal).\nOutside reference range: nucleated red cells (erythroblasts) high.\nDRAFT - automated analysis; requires review and sign-off by a qualified hematologist."
+  }
+ ],
+ "abnormal_cohort": [
+  {
+   "slide_id": "SIM-lymphocytosis-1",
+   "cell_type": "lymphocyte",
+   "pct": 55.8,
+   "low_pct": 20.0,
+   "high_pct": 40.0,
+   "excess": 15.8,
+   "severity_rank": 1,
+   "abnormal_types_on_slide": 3
+  },
+  {
+   "slide_id": "SIM-lymphocytosis-2",
+   "cell_type": "lymphocyte",
+   "pct": 55.6,
+   "low_pct": 20.0,
+   "high_pct": 40.0,
+   "excess": 15.6,
+   "severity_rank": 2,
+   "abnormal_types_on_slide": 2
+  },
+  {
+   "slide_id": "SIM-eosinophilia-2",
+   "cell_type": "eosinophil",
+   "pct": 13.5,
+   "low_pct": 1.0,
+   "high_pct": 4.0,
+   "excess": 9.5,
+   "severity_rank": 3,
+   "abnormal_types_on_slide": 1
+  },
+  {
+   "slide_id": "SIM-eosinophilia-1",
+   "cell_type": "eosinophil",
+   "pct": 13.1,
+   "low_pct": 1.0,
+   "high_pct": 4.0,
+   "excess": 9.1,
+   "severity_rank": 4,
+   "abnormal_types_on_slide": 2
+  },
+  {
+   "slide_id": "SIM-monocytosis-1",
+   "cell_type": "monocyte",
+   "pct": 15.6,
+   "low_pct": 2.0,
+   "high_pct": 8.0,
+   "excess": 7.6,
+   "severity_rank": 5,
+   "abnormal_types_on_slide": 1
+  },
+  {
+   "slide_id": "SIM-monocytosis-2",
+   "cell_type": "monocyte",
+   "pct": 14.9,
+   "low_pct": 2.0,
+   "high_pct": 8.0,
+   "excess": 6.9,
+   "severity_rank": 6,
+   "abnormal_types_on_slide": 1
+  },
+  {
+   "slide_id": "SIM-lymphocytosis-1",
+   "cell_type": "neutrophil",
+   "pct": 33.5,
+   "low_pct": 40.0,
+   "high_pct": 70.0,
+   "excess": 6.5,
+   "severity_rank": 7,
+   "abnormal_types_on_slide": 3
+  },
+  {
+   "slide_id": "SIM-left_shift-1",
+   "cell_type": "immature_granulocyte",
+   "pct": 8.1,
+   "low_pct": 0.0,
+   "high_pct": 2.0,
+   "excess": 6.1,
+   "severity_rank": 8,
+   "abnormal_types_on_slide": 2
+  },
+  {
+   "slide_id": "SIM-lymphocytosis-2",
+   "cell_type": "neutrophil",
+   "pct": 34.2,
+   "low_pct": 40.0,
+   "high_pct": 70.0,
+   "excess": 5.8,
+   "severity_rank": 9,
+   "abnormal_types_on_slide": 2
+  },
+  {
+   "slide_id": "SIM-left_shift-2",
+   "cell_type": "immature_granulocyte",
+   "pct": 7.7,
+   "low_pct": 0.0,
+   "high_pct": 2.0,
+   "excess": 5.7,
+   "severity_rank": 10,
+   "abnormal_types_on_slide": 2
+  },
+  {
+   "slide_id": "SIM-nucleated_reds-1",
+   "cell_type": "erythroblast",
+   "pct": 6.3,
+   "low_pct": 0.0,
+   "high_pct": 1.0,
+   "excess": 5.3,
+   "severity_rank": 11,
+   "abnormal_types_on_slide": 1
+  },
+  {
+   "slide_id": "SIM-nucleated_reds-2",
+   "cell_type": "erythroblast",
+   "pct": 5.9,
+   "low_pct": 0.0,
+   "high_pct": 1.0,
+   "excess": 4.9,
+   "severity_rank": 12,
+   "abnormal_types_on_slide": 1
+  },
+  {
+   "slide_id": "SIM-left_shift-2",
+   "cell_type": "lymphocyte",
+   "pct": 19.1,
+   "low_pct": 20.0,
+   "high_pct": 40.0,
+   "excess": 0.9,
+   "severity_rank": 13,
+   "abnormal_types_on_slide": 2
+  },
+  {
+   "slide_id": "SIM-left_shift-1",
+   "cell_type": "lymphocyte",
+   "pct": 19.4,
+   "low_pct": 20.0,
+   "high_pct": 40.0,
+   "excess": 0.6,
+   "severity_rank": 14,
+   "abnormal_types_on_slide": 2
+  },
+  {
+   "slide_id": "SIM-eosinophilia-1",
+   "cell_type": "basophil",
+   "pct": 1.5,
+   "low_pct": 0.0,
+   "high_pct": 1.0,
+   "excess": 0.5,
+   "severity_rank": 15,
+   "abnormal_types_on_slide": 2
+  },
+  {
+   "slide_id": "SIM-lymphocytosis-1",
+   "cell_type": "basophil",
+   "pct": 1.5,
+   "low_pct": 0.0,
+   "high_pct": 1.0,
+   "excess": 0.5,
+   "severity_rank": 15,
+   "abnormal_types_on_slide": 3
+  }
+ ],
+ "confidence_trend": [
+  {
+   "slide_id": "SIM-normal-1",
+   "mean_confidence": 0.964,
+   "reject_rate": 0.023,
+   "change_vs_previous_slide": null,
+   "rolling_mean_5_slides": 0.964
+  },
+  {
+   "slide_id": "SIM-monocytosis-1",
+   "mean_confidence": 0.967,
+   "reject_rate": 0.036,
+   "change_vs_previous_slide": 0.003,
+   "rolling_mean_5_slides": 0.965
+  },
+  {
+   "slide_id": "SIM-eosinophilia-1",
+   "mean_confidence": 0.969,
+   "reject_rate": 0.009,
+   "change_vs_previous_slide": 0.002,
+   "rolling_mean_5_slides": 0.967
+  },
+  {
+   "slide_id": "SIM-left_shift-1",
+   "mean_confidence": 0.947,
+   "reject_rate": 0.064,
+   "change_vs_previous_slide": -0.022,
+   "rolling_mean_5_slides": 0.962
+  },
+  {
+   "slide_id": "SIM-lymphocytosis-1",
+   "mean_confidence": 0.97,
+   "reject_rate": 0.018,
+   "change_vs_previous_slide": 0.023,
+   "rolling_mean_5_slides": 0.963
+  },
+  {
+   "slide_id": "SIM-nucleated_reds-1",
+   "mean_confidence": 0.962,
+   "reject_rate": 0.034,
+   "change_vs_previous_slide": -0.009,
+   "rolling_mean_5_slides": 0.963
+  },
+  {
+   "slide_id": "SIM-normal-2",
+   "mean_confidence": 0.961,
+   "reject_rate": 0.041,
+   "change_vs_previous_slide": -0.001,
+   "rolling_mean_5_slides": 0.962
+  },
+  {
+   "slide_id": "SIM-monocytosis-2",
+   "mean_confidence": 0.967,
+   "reject_rate": 0.023,
+   "change_vs_previous_slide": 0.006,
+   "rolling_mean_5_slides": 0.961
+  },
+  {
+   "slide_id": "SIM-eosinophilia-2",
+   "mean_confidence": 0.956,
+   "reject_rate": 0.032,
+   "change_vs_previous_slide": -0.011,
+   "rolling_mean_5_slides": 0.963
+  },
+  {
+   "slide_id": "SIM-left_shift-2",
+   "mean_confidence": 0.941,
+   "reject_rate": 0.077,
+   "change_vs_previous_slide": -0.014,
+   "rolling_mean_5_slides": 0.957
+  },
+  {
+   "slide_id": "SIM-lymphocytosis-2",
+   "mean_confidence": 0.972,
+   "reject_rate": 0.018,
+   "change_vs_previous_slide": 0.031,
+   "rolling_mean_5_slides": 0.959
+  },
+  {
+   "slide_id": "SIM-nucleated_reds-2",
+   "mean_confidence": 0.952,
+   "reject_rate": 0.06,
+   "change_vs_previous_slide": -0.02,
+   "rolling_mean_5_slides": 0.958
+  }
+ ],
+ "per_class_accuracy": [
+  {
+   "true_class": "immature_granulocyte",
+   "n": 28,
+   "correct": 26,
+   "recall": 0.929,
+   "share_of_all_errors": 0.036
+  },
+  {
+   "true_class": "erythroblast",
+   "n": 24,
+   "correct": 23,
+   "recall": 0.958,
+   "share_of_all_errors": 0.018
+  },
+  {
+   "true_class": "neutrophil",
+   "n": 1324,
+   "correct": 1276,
+   "recall": 0.964,
+   "share_of_all_errors": 0.857
+  },
+  {
+   "true_class": "monocyte",
+   "n": 180,
+   "correct": 177,
+   "recall": 0.983,
+   "share_of_all_errors": 0.054
+  },
+  {
+   "true_class": "lymphocyte",
+   "n": 752,
+   "correct": 750,
+   "recall": 0.997,
+   "share_of_all_errors": 0.036
+  },
+  {
+   "true_class": "basophil",
+   "n": 16,
+   "correct": 16,
+   "recall": 1.0,
+   "share_of_all_errors": 0.0
+  },
+  {
+   "true_class": "eosinophil",
+   "n": 100,
+   "correct": 100,
+   "recall": 1.0,
+   "share_of_all_errors": 0.0
+  },
+  {
+   "true_class": "platelet",
+   "n": 240,
+   "correct": 240,
+   "recall": 1.0,
+   "share_of_all_errors": 0.0
+  }
+ ]
+}

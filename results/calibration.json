@@ -1,0 +1,241 @@
+{
+ "model": "baseline_cnn_s0.pt",
+ "temperature": 0.6423441171646118,
+ "test_ece_before": 0.022139124091454576,
+ "test_ece_after": 0.005819218047041937,
+ "test_nll_before": 0.07792120426893234,
+ "test_nll_after": 0.06633593887090683,
+ "reliability_before": [
+  {
+   "bin": [
+    0.2,
+    0.267
+   ],
+   "n": 1,
+   "accuracy": 0.0,
+   "confidence": 0.2457
+  },
+  {
+   "bin": [
+    0.267,
+    0.333
+   ],
+   "n": 1,
+   "accuracy": 0.0,
+   "confidence": 0.31
+  },
+  {
+   "bin": [
+    0.333,
+    0.4
+   ],
+   "n": 5,
+   "accuracy": 0.8,
+   "confidence": 0.3807
+  },
+  {
+   "bin": [
+    0.4,
+    0.467
+   ],
+   "n": 9,
+   "accuracy": 0.7778,
+   "confidence": 0.4423
+  },
+  {
+   "bin": [
+    0.467,
+    0.533
+   ],
+   "n": 24,
+   "accuracy": 0.625,
+   "confidence": 0.5067
+  },
+  {
+   "bin": [
+    0.533,
+    0.6
+   ],
+   "n": 28,
+   "accuracy": 0.6429,
+   "confidence": 0.5596
+  },
+  {
+   "bin": [
+    0.6,
+    0.667
+   ],
+   "n": 35,
+   "accuracy": 0.6571,
+   "confidence": 0.6362
+  },
+  {
+   "bin": [
+    0.667,
+    0.733
+   ],
+   "n": 34,
+   "accuracy": 0.8529,
+   "confidence": 0.7006
+  },
+  {
+   "bin": [
+    0.733,
+    0.8
+   ],
+   "n": 57,
+   "accuracy": 0.807,
+   "confidence": 0.7684
+  },
+  {
+   "bin": [
+    0.8,
+    0.867
+   ],
+   "n": 83,
+   "accuracy": 0.9398,
+   "confidence": 0.8361
+  },
+  {
+   "bin": [
+    0.867,
+    0.933
+   ],
+   "n": 200,
+   "accuracy": 0.98,
+   "confidence": 0.9077
+  },
+  {
+   "bin": [
+    0.933,
+    1.0
+   ],
+   "n": 2944,
+   "accuracy": 0.998,
+   "confidence": 0.9865
+  }
+ ],
+ "reliability_after": [
+  {
+   "bin": [
+    0.267,
+    0.333
+   ],
+   "n": 1,
+   "accuracy": 0.0,
+   "confidence": 0.2769
+  },
+  {
+   "bin": [
+    0.333,
+    0.4
+   ],
+   "n": 2,
+   "accuracy": 0.5,
+   "confidence": 0.3639
+  },
+  {
+   "bin": [
+    0.4,
+    0.467
+   ],
+   "n": 2,
+   "accuracy": 1.0,
+   "confidence": 0.4537
+  },
+  {
+   "bin": [
+    0.467,
+    0.533
+   ],
+   "n": 9,
+   "accuracy": 0.5556,
+   "confidence": 0.5023
+  },
+  {
+   "bin": [
+    0.533,
+    0.6
+   ],
+   "n": 22,
+   "accuracy": 0.7273,
+   "confidence": 0.5687
+  },
+  {
+   "bin": [
+    0.6,
+    0.667
+   ],
+   "n": 15,
+   "accuracy": 0.6,
+   "confidence": 0.6334
+  },
+  {
+   "bin": [
+    0.667,
+    0.733
+   ],
+   "n": 24,
+   "accuracy": 0.5417,
+   "confidence": 0.7001
+  },
+  {
+   "bin": [
+    0.733,
+    0.8
+   ],
+   "n": 28,
+   "accuracy": 0.75,
+   "confidence": 0.7666
+  },
+  {
+   "bin": [
+    0.8,
+    0.867
+   ],
+   "n": 29,
+   "accuracy": 0.7931,
+   "confidence": 0.8444
+  },
+  {
+   "bin": [
+    0.867,
+    0.933
+   ],
+   "n": 71,
+   "accuracy": 0.8169,
+   "confidence": 0.9054
+  },
+  {
+   "bin": [
+    0.933,
+    1.0
+   ],
+   "n": 3218,
+   "accuracy": 0.9963,
+   "confidence": 0.9968
+  }
+ ],
+ "gate": {
+  "bloodmnist_test": {
+   "rejected": 0.03507746273019585,
+   "accuracy_kept": 0.9912148118019104,
+   "accuracy_rejected": 0.6833333373069763,
+   "mean_confidence": 0.9586008787155151
+  },
+  "Dataset 1": {
+   "rejected": 0.3333333333333333,
+   "accuracy_all": 0.08666666666666667,
+   "accuracy_kept": 0.105,
+   "mean_confidence": 0.7823683023452759,
+   "auroc_low_confidence_flags_external": 0.8755773165741012
+  },
+  "Dataset 2": {
+   "rejected": 0.46,
+   "accuracy_all": 0.21,
+   "accuracy_kept": 0.2777777777777778,
+   "mean_confidence": 0.7286609411239624,
+   "auroc_low_confidence_flags_external": 0.8959602455422392
+  }
+ }
+}
