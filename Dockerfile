@@ -8,8 +8,8 @@ WORKDIR /app
 ENV PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1 \
     MODEL_CKPT=/app/checkpoints/baseline_cnn_s0.pt DB_PATH=/app/data/predictions.sqlite
 
-# CPU-only PyTorch keeps the image around 1 GB instead of 5+ GB with CUDA
-RUN pip install --no-cache-dir torch==2.14.1 --index-url https://download.pytorch.org/whl/cpu
+# CPU-only PyTorch (+ torchvision, used by src/models.py) keeps the image around 1 GB instead of 5+ GB with CUDA
+RUN pip install --no-cache-dir torch==2.14.1 torchvision==0.29.1 --index-url https://download.pytorch.org/whl/cpu
 COPY requirements-serve.txt .
 RUN pip install --no-cache-dir -r requirements-serve.txt
 

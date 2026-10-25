@@ -13,6 +13,7 @@ jobs:
         run: |
           docker run -d --name api -p 8000:8000 bloodcell-api
           for i in $(seq 1 30); do curl -sf http://127.0.0.1:8000/health && break; sleep 2; done
+          curl -sf http://127.0.0.1:8000/health || (docker logs api; exit 1)
       - name: Smoke test the endpoint
         run: |
           pip install pillow && python3 -c "from PIL import Image; Image.new('RGB',(64,64),(200,150,200)).save('cell.png')"
