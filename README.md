@@ -13,6 +13,9 @@ What the project asks:
 Data are not included: BloodMNIST (MedMNIST v2, 64×64) and the Zheng et al. (2018) WBC segmentation dataset are public.
 Trained checkpoints are not included; every number below can be regenerated with the scripts.
 
+**Live demo in Colab** (about 8 minutes on a free T4 GPU): [colab/DDP_demo.ipynb](https://colab.research.google.com/github/Aditya-Eswar12/bloodmnist-ddp/blob/main/colab/DDP_demo.ipynb) downloads BloodMNIST,
+trains the CNN, runs the stain-physics segmentation against expert masks, the external tests, calibration and the API.
+
 ## Setup
 
 ```bash
